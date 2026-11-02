@@ -11,6 +11,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 - **Nueva 19 Cabezal de llenado**, con las subsecciones 19.1 a 19.9.
 - Renumeración: 19 Verificación de la bancada → **20**; 20 Fuentes → **21**; 21 Pendientes → **22**.
 - **14.5** se rehace con la altura real de la bancada (1.090 mm) en lugar de la estimación de 1.000 mm; el diámetro mínimo de la tolva pasa a 399,6 mm y se mantiene D = 400 mm.
+- Se acortan párrafos largos de 5.1, 6.3, 7.1 y 14.2, sin cambiar datos ni citas.
 - Ajustes en 1, 2 (Tabla 1), 3.2, 8.1, 13.3, 15.3, 16.11, 17.2 a 17.7, 18.1, 20, 21 y 22. Fuentes nuevas: [90] a [104].
 
 ---
@@ -23,7 +24,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 - En los textos finales, los símbolos se escriben como van en Word (Δ, μ, π, ≈, ≤, ≥, ⁴, etc.). Las fórmulas van en cursiva, como en el informe.
 - **Los números de figura y tabla de este archivo ya son los finales.** En los títulos (que Word numera solo) se escriben como `**Figura [auto: 60].**`: se inserta el título con numeración automática y el número entre corchetes es solo para controlar. La tabla de correspondencias de la Sección 3 de este archivo se aplica **únicamente al texto original que no se reemplaza**. No se aplica a los textos de este archivo.
 - `[IMAGEN: …]` indica qué imagen de **seccion17.md** se pega en ese lugar. La imagen se identifica por el título que la sigue en ese archivo.
-- **Fuentes.** Las citas de los textos de este archivo ya llevan la numeración final. Se elimina el salto de la lista (no existen [52] a [54]): las fuentes existentes [55] a [92] pasan a ser [52] a [89] (cambio C56), y las de seccion17.md, [86] a [100], pasan a ser [90] a [104], en el mismo orden. La [101] de seccion17.md (volante Halder) se elimina, porque el husillo usa el mismo volante Elesa del ajuste de carrera ([87]). Las fuentes [9], [13] y [18] no cambian.
+- **Fuentes.** Las citas de los textos de este archivo ya llevan la numeración final. Se elimina el salto de la lista (no existen [52] a [54]): las fuentes existentes [55] a [92] pasan a ser [52] a [89] (cambio C63), y las de seccion17.md, [86] a [100], pasan a ser [90] a [104], en el mismo orden. La [101] de seccion17.md (volante Halder) se elimina, porque el husillo usa el mismo volante Elesa del ajuste de carrera ([87]). Las fuentes [9], [13] y [18] no cambian.
 - **seccion17.md no se pega como bloque.** Todo su contenido entra a través de los cambios de este archivo, y de ese archivo solo se toman las imágenes.
 
 ---
@@ -176,14 +177,21 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > **Figura [auto: 8].** Manguera de PVC cristal reforzada con malla de poliéster, sobre espiga Tri-Clamp, en la máquina actual de la PyME
 
-### SECCIÓN 6.1
+### SECCIÓN 5.1
 
 **C12**
+- **Ubicación:** Sección 5.1. El párrafo que va desde «Para un mismo volumen existen infinitas combinaciones de diámetro y carrera, por lo que se comparan» hasta «con el consiguiente encarecimiento del proyecto.»
+- **Acción:** REEMPLAZAR
+- **Texto final:** Para un mismo volumen hay infinitas combinaciones de diámetro y carrera. Se comparan los diámetros 32, 40, 50, 63, 80 y 100 mm, de la serie normalizada de cilindros neumáticos ISO 15552. El cilindro dosificador es de fabricación propia y no está sujeto a esa norma, pero con medidas normalizadas se consiguen en el mercado tubos bruñidos ya dimensionados, con la calidad superficial y la tolerancia interna requeridas, sin mecanizar ni bruñir a medida.
+
+### SECCIÓN 6.1
+
+**C13**
 - **Ubicación:** Sección 6.1, párrafo del número de Reynolds. Reemplazar desde «En la manguera (d = 25,4 mm) resulta Re» hasta «y la ecuación de Hagen-Poiseuille es aplicable.» (fin del párrafo).
 - **Acción:** REEMPLAZAR
 - **Texto final:** En la lanza de la boquilla (d = 14,48 mm, Sección 3.3), donde se da el mayor valor, resulta Re ≈ 1,0, y en la manguera de 1¼” (d = 31,75 mm), Re ≈ 0,44. Los dos están varios órdenes de magnitud por debajo del límite de transición a régimen turbulento (Re ≈ 2.300), por lo que el flujo es laminar con amplio margen y la ecuación de Hagen-Poiseuille es aplicable.
 
-**C13**
+**C14**
 - **Ubicación:** Sección 6.1. Reemplazar desde el párrafo que empieza con «Se calcula por separado la caída de presión en la boquilla final» hasta la fórmula de ΔPtotal que termina en «0,0341 MPa» (inclusive). El bloque incluye las fórmulas de Q, ΔPboquilla, ΔPmanguera y ΔPtotal. El párrafo siguiente, «Este valor no incluye las pérdidas de la válvula de bifurcación…», se conserva.
 - **Acción:** REEMPLAZAR
 - **Texto final:**
@@ -229,12 +237,12 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > Con una manguera de 1” del mismo largo, la pérdida total sería de 58.783 Pa.
 
-**C14**
+**C15**
 - **Ubicación:** Sección 6.1, justificación del CS = 3. Ancla: «la viscosidad de diseño y la longitud de la boquilla son estimadas»
 - **Acción:** REEMPLAZAR
 - **Texto final:** la viscosidad de diseño es estimada
 
-**C15**
+**C16**
 - **Ubicación:** Sección 6.1, tabla "Fuerza de resistencia del fluido y fuerza mínima requerida" (queda como Tabla 8). Las 5 filas de datos, desde la fila «| 40 | 1.257 | 42,9 | 128,6 |» hasta la fila «| 100 | 7.854 | 267,9 | 803,6 |».
 - **Acción:** REEMPLAZAR las 5 filas (el encabezado no cambia).
 - **Texto final:**
@@ -247,21 +255,48 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
 ### SECCIÓN 6.2
 
-**C16**
+**C17**
 - **Ubicación:** Tabla "Selección del actuador SMC CP96 para cada candidato" (queda como Tabla 9), columna "F mínima (N)".
 - **Acción:** REEMPLAZAR solo el valor de esa celda en cada fila. Las demás celdas no cambian; en particular, **no cambia ningún actuador**.
 - **Texto final:** fila «| 40 | 397,9 | 400 |»: 128,6 → **167,2**; fila «| 50 | 254,6 | 320 |»: 200,9 → **261,1**; fila «| 63 | 160,4 | 200 |»: 319,0 → **414,6**; fila «| 80 | 99,5 | 100 |»: 514,3 → **668,6**; fila «| 100 | 63,7 | 80 |»: 803,6 → **1.044,6**.
 
+### SECCIÓN 6.3
+
+**C18**
+- **Ubicación:** Sección 6.3. El párrafo que va desde «La principal ventaja de la unión roscada es que es desmontable» hasta «Asimismo, la unión soldada es continua y rígida, sin holgura.»
+- **Acción:** REEMPLAZAR
+- **Texto final:** La ventaja de la unión roscada es que es desmontable, condición que aquí no hace falta. El *o-ring* del émbolo, la pieza que se desgasta, se cambia sin separar el émbolo del vástago, extrayendo el conjunto por el extremo trasero de la camisa (Secciones 10.2 y 12.1), y la limpieza entre lotes se hace con el sistema CIP, sin desarmar. La unión soldada, además, es continua y rígida, sin holgura.
+
+**C19**
+- **Ubicación:** Sección 6.3. El párrafo que va desde «La soldadura introduce un riesgo de sensibilización del AISI 304» hasta «en particular el aporte térmico y el diseño de la junta [10].»
+- **Acción:** REEMPLAZAR
+- **Texto final:** La soldadura puede sensibilizar el AISI 304 en la zona afectada por el calor (ZAC). En los ensayos consultados no hubo sensibilización con una sola pasada, y con dos pasadas apareció una zona sensibilizada de unos 3 mm; el riesgo se evita controlando el aporte térmico y el diseño de la junta [10]. Por eso se suelda en una sola pasada y con bajo aporte térmico.
+
 ### SECCIÓN 7.1
 
-**C17**
+**C20**
+- **Ubicación:** Sección 7.1. El primer párrafo, desde «Con el accionamiento de doble efecto adoptado, el vástago trabaja en compresión» hasta «Por eso la verificación se hace únicamente para la carrera de inyección.»
+- **Acción:** REEMPLAZAR
+- **Texto final:** En la carrera de inyección el vástago trabaja a compresión y puede pandear. El pandeo es una inestabilidad elástica que aparece de forma súbita al alcanzar la carga crítica, sin una deformación previa que avise, y por eso es más peligroso que la fluencia. En la aspiración el vástago trabaja a tracción y no puede pandear, por lo que la verificación se hace solo para la inyección.
+
+**C21**
+- **Ubicación:** Sección 7.1, párrafo que empieza con «donde E es el módulo de elasticidad del material del vástago». Se reemplaza solo desde «Para el acero al carbono se adopta E = 200 GPa» hasta el final del párrafo, «ya que el pandeo se verifica sobre el tramo de mayor longitud libre del vástago.» El comienzo del párrafo (la definición de E, I, K y L) no cambia.
+- **Acción:** REEMPLAZAR
+- **Texto final:** Para el acero al carbono se adopta E = 200 GPa, levemente por debajo de los 207 GPa tabulados, valor que varía muy poco entre aceros al carbono; para el acero inoxidable 18-8 del vástago del cilindro dosificador (Sección 6.3) se tabulan 190 GPa [13]. Como la columna está formada por los dos vástagos, se adopta para toda ella, del lado seguro, E = 190 GPa. El momento de inercia se calcula con el diámetro liso de catálogo (12, 16 o 20 mm según el actuador, Sección 6.2) y no con el de la punta roscada, porque el pandeo se verifica en el tramo libre más largo.
+
+**C22**
+- **Ubicación:** Sección 7.1. El párrafo que va desde «Se adopta K = 2, correspondiente a la condición empotrado-libre» hasta «para no depender de un guiado que hoy no está garantizado.»
+- **Acción:** REEMPLAZAR
+- **Texto final:** Se adopta K = 2 (empotrado–libre), el caso más desfavorable, porque ningún extremo es un vínculo rígido: del lado del émbolo, el *o-ring* no impide el giro ni guía en forma rígida, y del lado del actuador, el vínculo depende de la alineación entre el actuador y el cilindro dosificador. Con vínculos de rigidez intermedia K sería menor, pero no se cuenta con un guiado garantizado.
+
+**C23**
 - **Ubicación:** Sección 7.1. Origen: la imagen y el título «Columna de pandeo formada por los dos vástagos y modelo empotrado–libre (esquema sin escala)», que hoy están después del título de la figura de tensión crítica de pandeo. Destino: inmediatamente **después** del párrafo que termina en «en esta sección se determinan los límites entre los que debe quedar su valor real.»
 - **Acción:** MOVER (imagen y título juntos)
 - **Qué se ajusta:** nada en el texto de la figura. Con el cambio, la columna de pandeo se cita y aparece antes que la curva de Euler, y Word las numera 12 y 13. En el texto, la cita de la columna queda como «Figura 12» y la de la curva, como «Figura 13» (ver la Sección 3 de este archivo).
 
 ### SECCIÓN 8.1
 
-**C18**
+**C24**
 - **Ubicación:** Sección 8.1, **después** del párrafo que termina en «igual al del candidato de 40 mm.»
 - **Acción:** AGREGAR
 - **Texto final:**
@@ -272,26 +307,26 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > donde Factuador / (CS × A) = 692 N / (3 × 5.027 mm²) ≈ 45.886 Pa y ΔPmanguera/m = 10.024 Pa/m es la pérdida por metro de la manguera (Sección 6.1). Con el valor de trabajo de 1 m (Sección 2), CS = 3,10.
 
-**C19**
+**C25**
 - **Ubicación:** Sección 8.1. Ancla: «los cinco candidatos verifican holgadamente»
 - **Acción:** REEMPLAZAR
 - **Texto final:** los cinco candidatos verifican
 
 ### SECCIÓN 9.2
 
-**C20**
+**C26**
 - **Ubicación:** Sección 9.2. Ancla: «quedan como pendiente (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** quedan como pendiente (Sección 22)
 
 ### SECCIÓN 13
 
-**C21**
+**C27**
 - **Ubicación:** Sección 13.1. Ancla: «los precios por metro quedan pendientes de cotización (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** los precios por metro quedan pendientes de cotización (Sección 22)
 
-**C22**
+**C28**
 - **Ubicación:** Sección 13.3, Tabla 15. Agregar una fila después de la fila «| 13 | 1 | 529,6 | 529,6 |» y reemplazar la fila del total, «| **Total** | **23** | **—** | **15.631,1** |».
 - **Acción:** AGREGAR fila + REEMPLAZAR fila de total.
 - **Texto final:**
@@ -299,12 +334,12 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | 14 | 2 | 421,7 | 843,4 |
 | **Total** | **25** | **—** | **16.474,5** |
 
-**C23**
+**C29**
 - **Ubicación:** Sección 13.3. El párrafo que va desde «Con barras comerciales de 6 m, los 15.631 mm de tubo» hasta «que no se incluye en las longitudes.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** Con barras comerciales de 6 m, los 16.475 mm de tubo requieren como mínimo 16.475 / 6.000 ≈ 2,7 barras, es decir, 3 barras. El ítem 14 corresponde a los montantes del cabezal de llenado (Sección 19.7). La Tabla 16 distribuye los cortes en esas 3 barras, con un montante en la barra 1 y otro en la barra 2, de modo que cada barra conserva al menos unos 359 mm para absorber el espesor de corte de la sierra, que no se incluye en las longitudes.
 
-**C24**
+**C30**
 - **Ubicación:** Sección 13.3, Tabla 16, filas de las barras 1 y 2 (anclas: «5.219,4» y «5.210,7»).
 - **Acción:** REEMPLAZAR las dos filas. La barra 3 no cambia.
 - **Texto final:**
@@ -312,14 +347,21 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | 1 | 2 (×2), 5, 10, 11, 12, 13, 14 | 8 | 5.641,1 | 358,9 |
 | 2 | 2 (×3), 4, 5, 6, 9, 14 | 8 | 5.632,4 | 367,6 |
 
-**C25**
+**C31**
 - **Ubicación:** Sección 13.3, última frase. Ancla: «deben revisarse con el perfil adoptado de 25 × 25 × 1,25 mm (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** deben revisarse con el perfil adoptado de 25 × 25 × 1,25 mm (Sección 22)
 
+### SECCIÓN 14.2
+
+**C32**
+- **Ubicación:** Sección 14.2. El párrafo que va desde «Sobre ese volumen se agrega un margen de» hasta «para este tipo de recipientes [36].»
+- **Acción:** REEMPLAZAR
+- **Texto final:** Sobre ese volumen se agrega un *freeboard*: un espacio libre entre el nivel máximo y el borde de la boca de carga, que absorbe las turbulencias del vertido manual sin que el líquido rebalse. Se adopta un 10 % del consumo horario, es decir, una relación de llenado de alrededor del 90 %, la máxima que adopta por defecto un software de diseño de procesos para este tipo de recipientes [36].
+
 ### SECCIÓN 14.5
 
-**C26**
+**C33**
 - **Ubicación:** Sección 14.5. Desde el párrafo que empieza con «Como estimación de trabajo, a falta del diseño definitivo de la bancada» hasta la fórmula de Hdisponible inclusive (la línea que termina en «= 900 mm»).
 - **Acción:** REEMPLAZAR
 - **Texto final:**
@@ -328,46 +370,46 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > *Hdisponible = Hmáx,carga − Hentrada,dosificador = 1.900 − 1.165 = 735 mm*
 
-**C27**
+**C34**
 - **Ubicación:** Sección 14.5, Tabla 17, fila «| 340 | 272,5 | 628,8 | 901,3 | 66,0 |».
 - **Acción:** REEMPLAZAR la fila. La fila de 400 mm no cambia.
 - **Texto final:**
 
 | 399,6 | 324,1 | 410,9 | 735,0 | 66,0 |
 
-**C28**
+**C35**
 - **Ubicación:** Sección 14.5. El párrafo que va desde «El diámetro de 340 mm es, en la práctica, el mínimo» hasta «sin revisar la geometría de la tolva.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** El diámetro mínimo que permite contener los 66 L dentro de la altura disponible es de 399,6 mm. Se adopta D = 400 mm: con el mismo volumen total, la altura total resulta de 734,2 mm y la boca de carga queda a 1.165 + 734,2 ≈ 1.899 mm sobre el piso, dentro del límite ergonómico de 1.900 mm (Figura 25).
 
 ### SECCIÓN 15.3
 
-**C29**
+**C36**
 - **Ubicación:** Título de la Sección 15.3. Ancla: «15.3 Uniones de la válvula de tres vías» (el título de la sección, no la línea del índice).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 15.3 Uniones de la válvula de tres vías y de las mangueras
 
-**C30**
+**C37**
 - **Ubicación:** Sección 15.3. El párrafo que va desde «Las otras dos bocas se conectan a las mangueras de 1» hasta «sin cortar ni soldar.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** Las otras dos bocas se conectan a la manguera de 1” de la tolva y a la de 1¼” de la boquilla, ambas de PVC cristal reforzada con malla de poliéster (Sección 3.3). La unión se hace con adaptadores de acero inoxidable que se encuentran en el mercado, con un extremo Tri-Clamp de 50,5 mm y el otro en espiga para manguera de 1” [66] o de 1¼”, según la manguera. Cada adaptador se une a la boca de la válvula con abrazadera y junta, y la manguera se ajusta sobre la espiga con una abrazadera de manguera. Así, las tres bocas quedan con uniones desmontables, que permiten retirar la válvula sin cortar ni soldar.
 
-**C31**
+**C38**
 - **Ubicación:** Sección 15.3, **después** del párrafo que termina en «con el mismo criterio de la Sección 6.3.»
 - **Acción:** AGREGAR
 - **Texto final:** En la boquilla, la manguera de 1¼” se ajusta con una abrazadera de manguera sobre otro adaptador Tri-Clamp × espiga. Ese adaptador se une con abrazadera y junta a un adaptador R 1 × Tri-Clamp, enroscado en la rama lateral de la T y sellado con cinta de PTFE [93] (Sección 3.3).
 
-**C32**
+**C39**
 - **Ubicación:** Sección 15.3. Desde «La Tabla 20 resume los componentes de las tres uniones» hasta «con la boquilla de llenado.» (las dos frases del párrafo que precede a la tabla).
 - **Acción:** REEMPLAZAR
 - **Texto final:** La Tabla 22 resume los componentes de las tres uniones de la válvula, de la unión con la boquilla y de las dos mangueras, con un esquema de cada uno.
 
-**C33**
+**C40**
 - **Ubicación:** Sección 15.3, título de la tabla. Ancla: «Componentes de las uniones de la válvula de tres vías»
 - **Acción:** REEMPLAZAR
 - **Texto final:** Componentes de las uniones de la válvula de tres vías y de la boquilla
 
-**C34**
+**C41**
 - **Ubicación:** Sección 15.3, cuerpo de la tabla (queda como Tabla 22).
 - **Acción:** REEMPLAZAR todas las filas de datos, desde «Ferrule Tri-Clamp para soldar» hasta la fila «Manguera», por las siguientes. En la columna "Imagen" se conservan las imágenes de las filas existentes; las filas nuevas o duplicadas llevan la imagen que se indica.
 - **Texto final:**
@@ -388,39 +430,39 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
 ### SECCIÓN 16.11
 
-**C35**
+**C42**
 - **Ubicación:** Sección 16.11. Ancla: «punto pendiente general de la Tabla 28»
 - **Acción:** REEMPLAZAR
 - **Texto final:** punto pendiente general de la Tabla 38
 
 ### SECCIÓN 17 (caja de soporte)
 
-**C36**
+**C43**
 - **Ubicación:** Sección 17.2. Ancla: «171,4 N en inyección (Tabla 6)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** 222,9 N en inyección (Tabla 8)
 
-**C37**
+**C44**
 - **Ubicación:** Sección 17.2. Ancla: «la fuerza de resistencia del fluido en operación, 171,4 N.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** la fuerza de resistencia del fluido en operación, 222,9 N.
 
-**C38**
+**C45**
 - **Ubicación:** Sección 17.2. Ancla: «se escalan por 171,4 / 692»
 - **Acción:** REEMPLAZAR
 - **Texto final:** se escalan por 222,9 / 692
 
-**C39**
+**C46**
 - **Ubicación:** Sección 17.3, "Verificación a fatiga". Ancla: «los momentos Miny × 171,4 / 692 en inyección»
 - **Acción:** REEMPLAZAR
 - **Texto final:** los momentos Miny × 222,9 / 692 en inyección
 
-**C40**
+**C47**
 - **Ubicación:** Sección 17.3. Desde «es de 10,21 mm en la cara exterior del borde del puerto» hasta «9,57 mm en la raíz del voladizo.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** es de 10,75 mm en la cara exterior del borde del puerto, 9,60 mm en el fondo del rebaje, 10,01 mm en las franjas de espesor completo y 9,59 mm en la raíz del voladizo.
 
-**C41**
+**C48**
 - **Ubicación:** Sección 17.3, tabla "Espesor mínimo de la pared delantera por criterio" (queda como Tabla 27). Las 6 filas de datos.
 - **Acción:** REEMPLAZAR las 6 filas (quedan ordenadas de mayor a menor, como ahora).
 - **Texto final:**
@@ -434,31 +476,31 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
   El párrafo siguiente («El espesor lo define la flexión en el centro de la pared, con 11,54 mm…») **no cambia**: el espesor lo sigue definiendo la flexión y 10,75 mm < 12,7 mm.
 
-**C42**
+**C49**
 - **Ubicación:** Sección 17.4. Ancla: «el espesor mínimo que cumple CS = 3 es de 14,98 mm»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el espesor mínimo que cumple CS = 3 es de 15,21 mm
 
-**C43**
+**C50**
 - **Ubicación:** Sección 17.4. Ancla: «el espesor mínimo es de 14,43 mm»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el espesor mínimo es de 14,57 mm
 
   (El espesor adoptado, 15,9 mm, sigue siendo el comercial inmediato superior: 15,21 < 15,875 mm. El resto de 17.4 no cambia.)
 
-**C44**
+**C51**
 - **Ubicación:** Sección 17.5, "Flexión de las pestañas". Ancla: «el espesor mínimo que cumple CS = 3 es de 2,35 mm»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el espesor mínimo que cumple CS = 3 es de 2,44 mm
 
-**C45**
+**C52**
 - **Ubicación:** Sección 17.5, "Espesor adoptado". Ancla: «El espesor lo define la flexión de las pestañas en inyección, con 2,40 mm.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** El espesor lo define la fatiga de las pestañas, con 2,44 mm, que supera al de flexión en inyección, 2,40 mm.
 
   (La frase siguiente, «Se adopta el espesor comercial inmediato superior… tlat = 2,5 mm», y las viñetas no cambian.)
 
-**C46**
+**C53**
 - **Ubicación:** Sección 17.7, tabla "Verificación a fatiga de la caja" (queda como Tabla 28). Las 7 filas de datos (el título y el encabezado no cambian).
 - **Acción:** REEMPLAZAR las 7 filas.
 - **Texto final:**
@@ -471,26 +513,26 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | Pared del actuador, borde del agujero de la guía, Ø33 mm (EC4) | +2,0 | −27,4 | 2,22 | 32,6 | −28,1 → 0 | 3,46 |
 | Pestañas de las laterales, pliegue | +21,4 | −50,7 | 1 | 36,1 | −14,7 → 0 | 3,16 |
 
-**C47**
+**C54**
 - **Ubicación:** Sección 17.7, párrafo posterior a la figura del diagrama de Goodman. Desde «El más exigido es el borde del agujero de Ø36 mm» hasta «mayor que la fuerza de operación que realmente las recorre (Sección 17.2).» La primera frase del párrafo («Todos los puntos verifican…») y las frases que siguen al fragmento («Los resultados surgen además…» y «Las laterales…») no cambian.
 - **Acción:** REEMPLAZAR
 - **Texto final:** El más exigido es el pliegue de las pestañas (CS = 3,16), seguido del borde del agujero de Ø36 mm de la pared del actuador (3,22) y del borde del agujero de la guía (3,46). En las pestañas, la amplitud se calcula con FIN = 581 N, mayor que la fuerza de operación que realmente las recorre (Sección 17.2); en la pared del actuador, la define el estado de carga del tope, con la fuerza de choque acotada de la Sección 16.5.
 
 ### SECCIÓN 18.1
 
-**C48**
+**C55**
 - **Ubicación:** Sección 18.1. Origen: las dos imágenes y el título «Soporte de la tolva: ménsulas, postes y voladizo de la bancada», que hoy están al final de "Voladizo de la bancada". Destino: inmediatamente **después** del primer párrafo de 18.1, que termina en «configuración de soporte por ménsulas sobre columnas [82].»
 - **Acción:** MOVER (imágenes y título juntos)
 - **Qué se ajusta:** nada en el texto. La figura pasa a ser la primera de la Sección 18 (Figura 51), que es también la primera que se cita.
 
-**C49**
+**C56**
 - **Ubicación:** Sección 18.1, "Voladizo de la bancada". Ancla: «se verifica junto con ella (Sección 19)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** se verifica junto con ella (Sección 20)
 
 ### NUEVA SECCIÓN 19
 
-**C50**
+**C57**
 - **Ubicación:** Entre el final de la Sección 18 (el párrafo «[completar: resultados del análisis por elementos finitos de la pared de la tolva junto a las ménsulas.]») y el título «19. Verificación estructural de la bancada».
 - **Acción:** AGREGAR (sección completa)
 - **Texto final:**
@@ -845,39 +887,39 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
 ### SECCIÓN 20 (ex 19, verificación de la bancada)
 
-**C51**
+**C58**
 - **Ubicación:** Ancla: «19. Verificación estructural de la bancada» (el título de la sección, no la línea del índice).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 20. Verificación estructural de la bancada
 
-**C52**
+**C59**
 - **Ubicación:** Primera frase de la sección. Ancla: «y el peso de la tolva llena sobre su soporte (Sección 18.2).»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el peso de la tolva llena sobre su soporte (Sección 18.2) y el del cabezal de llenado sobre el tubo delantero (Sección 19).
 
-**C53**
+**C60**
 - **Ubicación:** Última frase de la sección. Ancla: «sus resultados deben actualizarse con el perfil definitivo (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** sus resultados deben actualizarse con el perfil definitivo (Sección 22)
 
 ### SECCIÓN 21 (ex 20, fuentes)
 
-**C54**
+**C61**
 - **Ubicación:** Ancla: «20. Fuentes técnicas consultadas» (el título de la sección).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 21. Fuentes técnicas consultadas
 
-**C55**
+**C62**
 - **Ubicación:** Frase inicial. Ancla: «caja de soporte y soporte de la tolva).»
 - **Acción:** REEMPLAZAR
 - **Texto final:** caja de soporte, soporte de la tolva y cabezal de llenado).
 
-**C56**
+**C63**
 - **Ubicación:** Lista de fuentes y todo el texto del informe que no se reemplaza con este archivo.
 - **Acción:** REEMPLAZAR números de cita. Se elimina el salto de la lista ([52] a [54] no existen): cada fuente desde la [55] hasta la [92] baja 3 números, tanto en la lista como en todas sus citas del texto.
 - **Texto final:** [55] → [52], [56] → [53], [57] → [54], …, [91] → [88], [92] → [89]. Las fuentes [1] a [51] no cambian. **Hacer los reemplazos en orden creciente**, de la [55] a la [92], para no pisar números ya cambiados. No aplicarlo a los textos de este archivo, que ya llevan la numeración final.
 
-**C57**
+**C64**
 - **Ubicación:** **Después** de la última fuente de la lista, la que empieza con «[92] Ternium» (pasa a ser [89] con el cambio de renumeración de esta misma sección).
 - **Acción:** AGREGAR. El título "Fuentes técnicas consultadas (continuación)" de seccion17.md **no** se agrega.
 - **Texto final:**
@@ -916,30 +958,30 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
 ### SECCIÓN 22 (ex 21, pendientes)
 
-**C58**
+**C65**
 - **Ubicación:** Ancla: «21. Información pendiente de relevar o definir (consolidado general)» (el título de la sección).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 22. Información pendiente de relevar o definir (consolidado general)
 
-**C59**
+**C66**
 - **Ubicación:** Tabla de pendientes (queda como Tabla 38), fila que empieza con «| 6.1 | Longitud real de la manguera de conducción».
 - **Acción:** REEMPLAZAR la fila.
 - **Texto final:**
 
 | 6.1 / 8.1 | Longitud real de la manguera entre la válvula y la boquilla | Se usó 1 m como valor de trabajo; debe medir como máximo 1,15 m (Sección 8.1). | Verificar con el dibujo definitivo de la estación. |
 
-**C60**
+**C67**
 - **Ubicación:** Misma tabla, fila que empieza con «| 13.3 / 19 | Actualización del análisis estructural de la bancada».
 - **Acción:** REEMPLAZAR la fila.
 - **Texto final:**
 
 | 13.3 / 20 | Actualización del análisis estructural de la bancada | El análisis se hizo con pared de 0,035" (0,89 mm), menor que la adoptada (1,25 mm). Faltan además el material asignado, las cargas aplicadas (reacciones de las patas de la caja de soporte, Sección 17.8, y peso del cabezal de llenado sobre el tubo delantero, Sección 19), el voladizo de soporte de la tolva y los tres postes (Sección 18.1). | Repetir el análisis y la lista de cortes (Sección 13.3) con el perfil 25 × 25 × 1,25 mm, incluidos el voladizo y los postes de la tolva y el bastidor del cabezal. |
 
-**C61**
+**C68**
 - **Ubicación:** Misma tabla, fila que empieza con «| 14.5 | Altura de la entrada de succión del cilindro dosificador».
 - **Acción:** ELIMINAR la fila.
 
-**C62**
+**C69**
 - **Ubicación:** Misma tabla, **después** de la fila «| 1 / general | Sistema CIP completo y circuito neumático completo |».
 - **Acción:** AGREGAR 3 filas.
 - **Texto final:**
@@ -948,7 +990,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | 3.3 | Tamaño de los *o-rings* de la boquilla | Los *o-rings* de cara, el del obturador y los del vástago quedaron a definir (Tabla 4). | Selección con el catálogo Parker [18]. |
 | 3.3 | Altura del domo del fondo de los envases | La altura h de la punta de la lanza se mide desde el punto más alto del domo, cuya altura no se midió. | Medición en los envases; mientras tanto, ajuste con la regulación de altura en la puesta en marcha (Sección 19.6). |
 
-**C63**
+**C70**
 - **Ubicación:** Misma tabla, **después** de la última fila («| 18.2 | Verificación de la pared de la tolva junto a las ménsulas |»).
 - **Acción:** AGREGAR fila.
 - **Texto final:**
@@ -1145,7 +1187,7 @@ Son remisiones de texto, sin datos que el lector necesite antes:
 
 La única que trae un número es la de **14.5 → 17.9**, por los 75 mm entre la bancada y el eje, y queda explicada en el texto.
 
-### Problemas de estilo del informe original (no aplicados)
+### Problemas de estilo del informe original
 
 1. **Juntas.** El informe usa *o-ring*, en cursiva, 29 veces, y la sección nueva dice "junta tórica" (Tabla 4, Tabla 37 y pendientes). Conviene unificar en *o-ring* en los textos nuevos.
 2. **Comillas de pulgada.** El informe usa ” (1”). En las fuentes [91] y [92] quedan comillas rectas (1"), copiadas del título del proveedor; se pueden dejar porque son citas textuales.
@@ -1153,4 +1195,4 @@ La única que trae un número es la de **14.5 → 17.9**, por los 75 mm entre la
 4. **Orden de las figuras.** Resuelto en 18.1 y también en 7.1, donde la columna de pandeo se citaba antes que la curva de Euler. Quedan dos casos menores en los que el título de la figura aparece antes de su primera cita: el Goodman de la caja (17.7) y las tres figuras de la bancada (20). Se pueden dejar.
 5. **"Fuente comercial."** Aparece en 13 fuentes, pero no en todas las que son comerciales (por ejemplo, [50] y [46]). Conviene aplicarlo a todas o a ninguna.
 6. **Sección 20.** Mantiene dos [completar] (material y cargas del modelo). Con el cabezal, la lista de cargas crece, así que conviene completarla junto con el análisis.
-7. **Párrafos largos.** Los de 5.1, 6.3, 7.1 y 14.2 superan las 6 líneas y mezclan justificación y resultado. Están en el estilo general del informe, así que no los tocaría salvo que quieras acortar.
+7. **Párrafos largos.** Resuelto en 5.1, 6.3, 7.1 y 14.2.
