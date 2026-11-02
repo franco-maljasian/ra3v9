@@ -11,7 +11,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 - **Nueva 19 Cabezal de llenado**, con las subsecciones 19.1 a 19.9.
 - Renumeración: 19 Verificación de la bancada → **20**; 20 Fuentes → **21**; 21 Pendientes → **22**.
 - **14.5** se rehace con la altura real de la bancada (1.090 mm) en lugar de la estimación de 1.000 mm; el diámetro mínimo de la tolva pasa a 399,6 mm y se mantiene D = 400 mm.
-- Ajustes en 1, 2 (Tabla 1), 3.2, 8.1, 13.3, 15.3, 16.11, 17.2 a 17.7, 18.1, 20, 21 y 22. Fuentes nuevas: [93] a [107].
+- Ajustes en 1, 2 (Tabla 1), 3.2, 8.1, 13.3, 15.3, 16.11, 17.2 a 17.7, 18.1, 20, 21 y 22. Fuentes nuevas: [90] a [104].
 
 ---
 
@@ -23,7 +23,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 - En los textos finales, los símbolos se escriben como van en Word (Δ, μ, π, ≈, ≤, ≥, ⁴, etc.). Las fórmulas van en cursiva, como en el informe.
 - **Los números de figura y tabla de este archivo ya son los finales.** En los títulos (que Word numera solo) se escriben como `**Figura [auto: 60].**`: se inserta el título con numeración automática y el número entre corchetes es solo para controlar. La tabla de correspondencias de la Sección 3 de este archivo se aplica **únicamente al texto original que no se reemplaza**. No se aplica a los textos de este archivo.
 - `[IMAGEN: …]` indica qué imagen de **seccion17.md** se pega en ese lugar. La imagen se identifica por el título que la sigue en ese archivo.
-- Las citas a fuentes de los textos de este archivo ya están renumeradas ([86] → [93] … [100] → [107]). La [101] de seccion17.md (volante Halder) se elimina, porque el husillo usa el mismo volante Elesa del ajuste de carrera [90]. Las fuentes existentes [9], [13], [18], [55], [61], [62], [64] y [67] no cambian.
+- **Fuentes.** Las citas de los textos de este archivo ya llevan la numeración final. Se elimina el salto de la lista (no existen [52] a [54]): las fuentes existentes [55] a [92] pasan a ser [52] a [89] (cambio C56), y las de seccion17.md, [86] a [100], pasan a ser [90] a [104], en el mismo orden. La [101] de seccion17.md (volante Halder) se elimina, porque el husillo usa el mismo volante Elesa del ajuste de carrera ([87]). Las fuentes [9], [13] y [18] no cambian.
 - **seccion17.md no se pega como bloque.** Todo su contenido entra a través de los cambios de este archivo, y de ese archivo solo se toman las imágenes.
 
 ---
@@ -99,7 +99,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
 > ## **3.3 Boquilla de llenado**
 >
-> Al terminar cada inyección, la boquilla debe cortar el producto en la punta para que no gotee entre ciclos. Para eso se adopta una boquilla con cierre positivo: un vástago que corre por dentro del conducto cierra la salida desde adentro, junto a la punta, y al cerrar aspira la gota que queda en ella. El concepto se tomó de la patente US5137187 [93]. La boquilla termina en una lanza que entra en el envase, para acortar la caída del producto, y que sube durante el llenado, para que el envase no rebalse. Para eso, la boquilla va montada en un carro que sube y baja en cada ciclo, y su altura se regula para cada formato; el conjunto, el cabezal de llenado, se desarrolla en la Sección 19.
+> Al terminar cada inyección, la boquilla debe cortar el producto en la punta para que no gotee entre ciclos. Para eso se adopta una boquilla con cierre positivo: un vástago que corre por dentro del conducto cierra la salida desde adentro, junto a la punta, y al cerrar aspira la gota que queda en ella. El concepto se tomó de la patente US5137187 [90]. La boquilla termina en una lanza que entra en el envase, para acortar la caída del producto, y que sube durante el llenado, para que el envase no rebalse. Para eso, la boquilla va montada en un carro que sube y baja en cada ciclo, y su altura se regula para cada formato; el conjunto, el cabezal de llenado, se desarrolla en la Sección 19.
 >
 > ### **Envases**
 >
@@ -130,7 +130,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 > * **(1) Cuerpo:** T roscada de 1”. La rama lateral recibe la manguera.
 > * **(2) Pieza de punta:** se enrosca abajo de la T. Tiene el asiento del obturador y la cámara donde queda alojada la cabeza cuando abre.
 > * **(3) Pieza de lanza:** se enrosca en la pieza de punta y lleva la lanza soldada.
-> * **(4) Obturador:** cabeza con junta, unida a un vástago. Cierra subiendo contra el asiento.
+> * **(4) Obturador:** cabeza con *o-ring*, unida a un vástago. Cierra subiendo contra el asiento.
 > * **(5) Tapón-guía:** cierra la T por arriba y guía el vástago.
 > * **(6) Linterna:** une el actuador con la boquilla y deja la zona del producto separada del actuador.
 > * **(7) Actuador:** cilindro neumático que abre y cierra el obturador; se selecciona en la Sección 19.2.
@@ -141,16 +141,16 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > | **Componente** | **Especificación** | **Material** | **Cant.** |
 > | --- | --- | --- | --- |
-> | T roscada | 1” clase 150 según ISO 4144, Rp 1 en las tres bocas, 38 mm del eje a cada cara [94] | CF8 (304) o CF8M (316) [95] | 1 |
-> | Juntas tóricas de cara | En la cara de los hexágonos de 41 mm y en el resalto de la pieza de lanza, tamaño a definir [18] | FKM | 3 |
+> | T roscada | 1” clase 150 según ISO 4144, Rp 1 en las tres bocas, 38 mm del eje a cada cara [91] | CF8 (304) o CF8M (316) [92] | 1 |
+> | *O-rings* de cara | En la cara de los hexágonos de 41 mm y en el resalto de la pieza de lanza, tamaño a definir [18] | FKM | 3 |
 > | Pieza de punta | Rosca G 1 × 18,5 mm, hexágono de 41 × 11 mm, asiento Ø16 × 3 mm, cámara Ø32 × 66 mm, rosca exterior M40 × 1,5 × 12 mm | AISI 304 | 1 |
 > | Pieza de lanza | Hexágono de 46 × 30 mm, rosca interior M40 × 1,5 × 12 mm, reducción de Ø32 a Ø14,48 mm en 15 mm | AISI 304 | 1 |
 > | Lanza | Tubo de 15,88 × 0,70 mm (5/8”), 113 mm de largo libre, soldado a la pieza de lanza | AISI 304 | 1 |
 > | Tapón-guía | Hexágono de 41 × 11 mm, rosca G 1 × 18,5 mm, cola de Ø26 × 6,5 mm, agujero de Ø4 mm | AISI 304 | 1 |
 > | Vástago del obturador | Ø4 mm, rosca M4 en ambos extremos | AISI 304 | 1 |
 > | Obturador | Cabeza de Ø20 × 8 mm, cierra subiendo contra el asiento | AISI 304 | 1 |
-> | Junta tórica del obturador | En la cara superior de la cabeza, tamaño a definir [18] | FKM | 1 |
-> | Juntas tóricas del vástago | Para vástago de Ø4 mm, tamaño a definir [18] | FKM | 2 |
+> | *O-ring* del obturador | En la cara superior de la cabeza, tamaño a definir [18] | FKM | 1 |
+> | *O-rings* del vástago | Para vástago de Ø4 mm, tamaño a definir [18] | FKM | 2 |
 > | Linterna | Tubo de Ø30 × 2 × 65 mm con discos de Ø40 × 4 mm, soldada al tapón-guía | AISI 304 | 1 |
 > | Manguito de unión | Rosca interior M4 en ambos extremos, con dos contratuercas M4 | AISI 304 | 1 + 2 |
 >
@@ -192,7 +192,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > *Q = Vinyección / tinyección = 500.000 mm³ / 10 s = 50.000 mm³/s*
 >
-> La pérdida se calcula por separado en la boquilla de la Sección 3.3, tramo por tramo (Figura 10), y en la manguera de 1¼” entre la válvula y la boquilla (d = 31,75 mm, con L = 1 m, Sección 2). Los tramos circulares se resuelven con Hagen-Poiseuille. Los anillos entre el vástago o la cabeza abierta y el conducto se resuelven con la expresión del flujo laminar entre cilindros concéntricos [98]:
+> La pérdida se calcula por separado en la boquilla de la Sección 3.3, tramo por tramo (Figura 10), y en la manguera de 1¼” entre la válvula y la boquilla (d = 31,75 mm, con L = 1 m, Sección 2). Los tramos circulares se resuelven con Hagen-Poiseuille. Los anillos entre el vástago o la cabeza abierta y el conducto se resuelven con la expresión del flujo laminar entre cilindros concéntricos [95]:
 >
 > *ΔP = 8 × μ × L × Q / (π × R⁴ × [(1 − k⁴) − (1 − k²)² / ln(1/k)])*
 >
@@ -252,9 +252,16 @@ Estructura final (solo lo nuevo, movido o renumerado):
 - **Acción:** REEMPLAZAR solo el valor de esa celda en cada fila. Las demás celdas no cambian; en particular, **no cambia ningún actuador**.
 - **Texto final:** fila «| 40 | 397,9 | 400 |»: 128,6 → **167,2**; fila «| 50 | 254,6 | 320 |»: 200,9 → **261,1**; fila «| 63 | 160,4 | 200 |»: 319,0 → **414,6**; fila «| 80 | 99,5 | 100 |»: 514,3 → **668,6**; fila «| 100 | 63,7 | 80 |»: 803,6 → **1.044,6**.
 
-### SECCIÓN 8.1
+### SECCIÓN 7.1
 
 **C17**
+- **Ubicación:** Sección 7.1. Origen: la imagen y el título «Columna de pandeo formada por los dos vástagos y modelo empotrado–libre (esquema sin escala)», que hoy están después del título de la figura de tensión crítica de pandeo. Destino: inmediatamente **después** del párrafo que termina en «en esta sección se determinan los límites entre los que debe quedar su valor real.»
+- **Acción:** MOVER (imagen y título juntos)
+- **Qué se ajusta:** nada en el texto de la figura. Con el cambio, la columna de pandeo se cita y aparece antes que la curva de Euler, y Word las numera 12 y 13. En el texto, la cita de la columna queda como «Figura 12» y la de la curva, como «Figura 13» (ver la Sección 3 de este archivo).
+
+### SECCIÓN 8.1
+
+**C18**
 - **Ubicación:** Sección 8.1, **después** del párrafo que termina en «igual al del candidato de 40 mm.»
 - **Acción:** AGREGAR
 - **Texto final:**
@@ -265,26 +272,26 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > donde Factuador / (CS × A) = 692 N / (3 × 5.027 mm²) ≈ 45.886 Pa y ΔPmanguera/m = 10.024 Pa/m es la pérdida por metro de la manguera (Sección 6.1). Con el valor de trabajo de 1 m (Sección 2), CS = 3,10.
 
-**C18**
+**C19**
 - **Ubicación:** Sección 8.1. Ancla: «los cinco candidatos verifican holgadamente»
 - **Acción:** REEMPLAZAR
 - **Texto final:** los cinco candidatos verifican
 
 ### SECCIÓN 9.2
 
-**C19**
+**C20**
 - **Ubicación:** Sección 9.2. Ancla: «quedan como pendiente (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** quedan como pendiente (Sección 22)
 
 ### SECCIÓN 13
 
-**C20**
+**C21**
 - **Ubicación:** Sección 13.1. Ancla: «los precios por metro quedan pendientes de cotización (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** los precios por metro quedan pendientes de cotización (Sección 22)
 
-**C21**
+**C22**
 - **Ubicación:** Sección 13.3, Tabla 15. Agregar una fila después de la fila «| 13 | 1 | 529,6 | 529,6 |» y reemplazar la fila del total, «| **Total** | **23** | **—** | **15.631,1** |».
 - **Acción:** AGREGAR fila + REEMPLAZAR fila de total.
 - **Texto final:**
@@ -292,12 +299,12 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | 14 | 2 | 421,7 | 843,4 |
 | **Total** | **25** | **—** | **16.474,5** |
 
-**C22**
+**C23**
 - **Ubicación:** Sección 13.3. El párrafo que va desde «Con barras comerciales de 6 m, los 15.631 mm de tubo» hasta «que no se incluye en las longitudes.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** Con barras comerciales de 6 m, los 16.475 mm de tubo requieren como mínimo 16.475 / 6.000 ≈ 2,7 barras, es decir, 3 barras. El ítem 14 corresponde a los montantes del cabezal de llenado (Sección 19.7). La Tabla 16 distribuye los cortes en esas 3 barras, con un montante en la barra 1 y otro en la barra 2, de modo que cada barra conserva al menos unos 359 mm para absorber el espesor de corte de la sierra, que no se incluye en las longitudes.
 
-**C23**
+**C24**
 - **Ubicación:** Sección 13.3, Tabla 16, filas de las barras 1 y 2 (anclas: «5.219,4» y «5.210,7»).
 - **Acción:** REEMPLAZAR las dos filas. La barra 3 no cambia.
 - **Texto final:**
@@ -305,14 +312,14 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | 1 | 2 (×2), 5, 10, 11, 12, 13, 14 | 8 | 5.641,1 | 358,9 |
 | 2 | 2 (×3), 4, 5, 6, 9, 14 | 8 | 5.632,4 | 367,6 |
 
-**C24**
+**C25**
 - **Ubicación:** Sección 13.3, última frase. Ancla: «deben revisarse con el perfil adoptado de 25 × 25 × 1,25 mm (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** deben revisarse con el perfil adoptado de 25 × 25 × 1,25 mm (Sección 22)
 
 ### SECCIÓN 14.5
 
-**C25**
+**C26**
 - **Ubicación:** Sección 14.5. Desde el párrafo que empieza con «Como estimación de trabajo, a falta del diseño definitivo de la bancada» hasta la fórmula de Hdisponible inclusive (la línea que termina en «= 900 mm»).
 - **Acción:** REEMPLAZAR
 - **Texto final:**
@@ -321,59 +328,59 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > *Hdisponible = Hmáx,carga − Hentrada,dosificador = 1.900 − 1.165 = 735 mm*
 
-**C26**
+**C27**
 - **Ubicación:** Sección 14.5, Tabla 17, fila «| 340 | 272,5 | 628,8 | 901,3 | 66,0 |».
 - **Acción:** REEMPLAZAR la fila. La fila de 400 mm no cambia.
 - **Texto final:**
 
 | 399,6 | 324,1 | 410,9 | 735,0 | 66,0 |
 
-**C27**
+**C28**
 - **Ubicación:** Sección 14.5. El párrafo que va desde «El diámetro de 340 mm es, en la práctica, el mínimo» hasta «sin revisar la geometría de la tolva.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** El diámetro mínimo que permite contener los 66 L dentro de la altura disponible es de 399,6 mm. Se adopta D = 400 mm: con el mismo volumen total, la altura total resulta de 734,2 mm y la boca de carga queda a 1.165 + 734,2 ≈ 1.899 mm sobre el piso, dentro del límite ergonómico de 1.900 mm (Figura 25).
 
 ### SECCIÓN 15.3
 
-**C28**
+**C29**
 - **Ubicación:** Título de la Sección 15.3. Ancla: «15.3 Uniones de la válvula de tres vías» (el título de la sección, no la línea del índice).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 15.3 Uniones de la válvula de tres vías y de las mangueras
 
-**C29**
+**C30**
 - **Ubicación:** Sección 15.3. El párrafo que va desde «Las otras dos bocas se conectan a las mangueras de 1» hasta «sin cortar ni soldar.»
 - **Acción:** REEMPLAZAR
-- **Texto final:** Las otras dos bocas se conectan a la manguera de 1” de la tolva y a la de 1¼” de la boquilla, ambas de PVC cristal reforzada con malla de poliéster (Sección 3.3). La unión se hace con adaptadores de acero inoxidable que se encuentran en el mercado, con un extremo Tri-Clamp de 50,5 mm y el otro en espiga para manguera de 1” [69] o de 1¼”, según la manguera. Cada adaptador se une a la boca de la válvula con abrazadera y junta, y la manguera se ajusta sobre la espiga con una abrazadera de manguera. Así, las tres bocas quedan con uniones desmontables, que permiten retirar la válvula sin cortar ni soldar.
-
-**C30**
-- **Ubicación:** Sección 15.3, **después** del párrafo que termina en «con el mismo criterio de la Sección 6.3.»
-- **Acción:** AGREGAR
-- **Texto final:** En la boquilla, la manguera de 1¼” se ajusta con una abrazadera de manguera sobre otro adaptador Tri-Clamp × espiga. Ese adaptador se une con abrazadera y junta a un adaptador R 1 × Tri-Clamp, enroscado en la rama lateral de la T y sellado con cinta de PTFE [96] (Sección 3.3).
+- **Texto final:** Las otras dos bocas se conectan a la manguera de 1” de la tolva y a la de 1¼” de la boquilla, ambas de PVC cristal reforzada con malla de poliéster (Sección 3.3). La unión se hace con adaptadores de acero inoxidable que se encuentran en el mercado, con un extremo Tri-Clamp de 50,5 mm y el otro en espiga para manguera de 1” [66] o de 1¼”, según la manguera. Cada adaptador se une a la boca de la válvula con abrazadera y junta, y la manguera se ajusta sobre la espiga con una abrazadera de manguera. Así, las tres bocas quedan con uniones desmontables, que permiten retirar la válvula sin cortar ni soldar.
 
 **C31**
+- **Ubicación:** Sección 15.3, **después** del párrafo que termina en «con el mismo criterio de la Sección 6.3.»
+- **Acción:** AGREGAR
+- **Texto final:** En la boquilla, la manguera de 1¼” se ajusta con una abrazadera de manguera sobre otro adaptador Tri-Clamp × espiga. Ese adaptador se une con abrazadera y junta a un adaptador R 1 × Tri-Clamp, enroscado en la rama lateral de la T y sellado con cinta de PTFE [93] (Sección 3.3).
+
+**C32**
 - **Ubicación:** Sección 15.3. Desde «La Tabla 20 resume los componentes de las tres uniones» hasta «con la boquilla de llenado.» (las dos frases del párrafo que precede a la tabla).
 - **Acción:** REEMPLAZAR
 - **Texto final:** La Tabla 22 resume los componentes de las tres uniones de la válvula, de la unión con la boquilla y de las dos mangueras, con un esquema de cada uno.
 
-**C32**
+**C33**
 - **Ubicación:** Sección 15.3, título de la tabla. Ancla: «Componentes de las uniones de la válvula de tres vías»
 - **Acción:** REEMPLAZAR
 - **Texto final:** Componentes de las uniones de la válvula de tres vías y de la boquilla
 
-**C33**
+**C34**
 - **Ubicación:** Sección 15.3, cuerpo de la tabla (queda como Tabla 22).
 - **Acción:** REEMPLAZAR todas las filas de datos, desde «Ferrule Tri-Clamp para soldar» hasta la fila «Manguera», por las siguientes. En la columna "Imagen" se conservan las imágenes de las filas existentes; las filas nuevas o duplicadas llevan la imagen que se indica.
 - **Texto final:**
 
 | **Imagen** | **Componente** | **Especificación** | **Cantidad** | **Ubicación** |
 | --- | --- | --- | --- | --- |
-| (la actual) | Ferrule Tri-Clamp para soldar | DN25 según DIN 32676 (paso de 26 mm, ala de 50,5 mm, largo de 21,5 mm), AISI 304 [68] | 1 | Tapa delantera del cilindro dosificador |
+| (la actual) | Ferrule Tri-Clamp para soldar | DN25 según DIN 32676 (paso de 26 mm, ala de 50,5 mm, largo de 21,5 mm), AISI 304 [65] | 1 | Tapa delantera del cilindro dosificador |
 | (la actual) | Abrazadera Tri-Clamp | Para ala de 50,5 mm | 4 | Una por boca de la válvula y una en la boquilla |
 | (la actual) | Junta Tri-Clamp | Para ala de 50,5 mm | 4 | Una por boca de la válvula y una en la boquilla |
-| (la actual) | Adaptador Tri-Clamp × espiga | Extremo Tri-Clamp de 50,5 mm y espiga para manguera de 1”, acero inoxidable [69] | 1 | Boca de la válvula hacia la tolva |
+| (la actual) | Adaptador Tri-Clamp × espiga | Extremo Tri-Clamp de 50,5 mm y espiga para manguera de 1”, acero inoxidable [66] | 1 | Boca de la válvula hacia la tolva |
 | (la misma del adaptador de 1”) | Adaptador Tri-Clamp × espiga | Extremo Tri-Clamp de 50,5 mm y espiga para manguera de 1¼”, acero inoxidable | 2 | Boca de la válvula hacia la boquilla y rama lateral de la boquilla |
 | [completar: imagen] | Adaptador R 1 × Tri-Clamp | Rosca macho R 1 a férula Tri-Clamp de 1”, AISI 316 | 1 | Rama lateral de la T de la boquilla |
-| [completar: imagen] | Cinta de sellado | PTFE, conforme a 21 CFR 177.1550 [96] | — | Rosca R 1 del adaptador de la boquilla |
+| [completar: imagen] | Cinta de sellado | PTFE, conforme a 21 CFR 177.1550 [93] | — | Rosca R 1 del adaptador de la boquilla |
 | (la actual) | Espiga para soldar | Espiga para manguera de 1”, AISI 304 | 1 | Salida del cono de la tolva |
 | (la actual) | Abrazadera de manguera | Para manguera de 1” | 2 | Sobre la espiga de la tolva y sobre el adaptador de la válvula hacia la tolva |
 | (la misma de la abrazadera de 1”) | Abrazadera de manguera | Para manguera de 1¼” | 2 | Sobre el adaptador de la válvula hacia la boquilla y sobre el de la boquilla |
@@ -381,39 +388,39 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
 ### SECCIÓN 16.11
 
-**C34**
+**C35**
 - **Ubicación:** Sección 16.11. Ancla: «punto pendiente general de la Tabla 28»
 - **Acción:** REEMPLAZAR
 - **Texto final:** punto pendiente general de la Tabla 38
 
 ### SECCIÓN 17 (caja de soporte)
 
-**C35**
+**C36**
 - **Ubicación:** Sección 17.2. Ancla: «171,4 N en inyección (Tabla 6)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** 222,9 N en inyección (Tabla 8)
 
-**C36**
+**C37**
 - **Ubicación:** Sección 17.2. Ancla: «la fuerza de resistencia del fluido en operación, 171,4 N.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** la fuerza de resistencia del fluido en operación, 222,9 N.
 
-**C37**
+**C38**
 - **Ubicación:** Sección 17.2. Ancla: «se escalan por 171,4 / 692»
 - **Acción:** REEMPLAZAR
 - **Texto final:** se escalan por 222,9 / 692
 
-**C38**
+**C39**
 - **Ubicación:** Sección 17.3, "Verificación a fatiga". Ancla: «los momentos Miny × 171,4 / 692 en inyección»
 - **Acción:** REEMPLAZAR
 - **Texto final:** los momentos Miny × 222,9 / 692 en inyección
 
-**C39**
+**C40**
 - **Ubicación:** Sección 17.3. Desde «es de 10,21 mm en la cara exterior del borde del puerto» hasta «9,57 mm en la raíz del voladizo.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** es de 10,75 mm en la cara exterior del borde del puerto, 9,60 mm en el fondo del rebaje, 10,01 mm en las franjas de espesor completo y 9,59 mm en la raíz del voladizo.
 
-**C40**
+**C41**
 - **Ubicación:** Sección 17.3, tabla "Espesor mínimo de la pared delantera por criterio" (queda como Tabla 27). Las 6 filas de datos.
 - **Acción:** REEMPLAZAR las 6 filas (quedan ordenadas de mayor a menor, como ahora).
 - **Texto final:**
@@ -427,31 +434,31 @@ Estructura final (solo lo nuevo, movido o renumerado):
 
   El párrafo siguiente («El espesor lo define la flexión en el centro de la pared, con 11,54 mm…») **no cambia**: el espesor lo sigue definiendo la flexión y 10,75 mm < 12,7 mm.
 
-**C41**
+**C42**
 - **Ubicación:** Sección 17.4. Ancla: «el espesor mínimo que cumple CS = 3 es de 14,98 mm»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el espesor mínimo que cumple CS = 3 es de 15,21 mm
 
-**C42**
+**C43**
 - **Ubicación:** Sección 17.4. Ancla: «el espesor mínimo es de 14,43 mm»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el espesor mínimo es de 14,57 mm
 
   (El espesor adoptado, 15,9 mm, sigue siendo el comercial inmediato superior: 15,21 < 15,875 mm. El resto de 17.4 no cambia.)
 
-**C43**
+**C44**
 - **Ubicación:** Sección 17.5, "Flexión de las pestañas". Ancla: «el espesor mínimo que cumple CS = 3 es de 2,35 mm»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el espesor mínimo que cumple CS = 3 es de 2,44 mm
 
-**C44**
+**C45**
 - **Ubicación:** Sección 17.5, "Espesor adoptado". Ancla: «El espesor lo define la flexión de las pestañas en inyección, con 2,40 mm.»
 - **Acción:** REEMPLAZAR
 - **Texto final:** El espesor lo define la fatiga de las pestañas, con 2,44 mm, que supera al de flexión en inyección, 2,40 mm.
 
   (La frase siguiente, «Se adopta el espesor comercial inmediato superior… tlat = 2,5 mm», y las viñetas no cambian.)
 
-**C45**
+**C46**
 - **Ubicación:** Sección 17.7, tabla "Verificación a fatiga de la caja" (queda como Tabla 28). Las 7 filas de datos (el título y el encabezado no cambian).
 - **Acción:** REEMPLAZAR las 7 filas.
 - **Texto final:**
@@ -464,21 +471,26 @@ Estructura final (solo lo nuevo, movido o renumerado):
 | Pared del actuador, borde del agujero de la guía, Ø33 mm (EC4) | +2,0 | −27,4 | 2,22 | 32,6 | −28,1 → 0 | 3,46 |
 | Pestañas de las laterales, pliegue | +21,4 | −50,7 | 1 | 36,1 | −14,7 → 0 | 3,16 |
 
-**C46**
+**C47**
 - **Ubicación:** Sección 17.7, párrafo posterior a la figura del diagrama de Goodman. Desde «El más exigido es el borde del agujero de Ø36 mm» hasta «mayor que la fuerza de operación que realmente las recorre (Sección 17.2).» La primera frase del párrafo («Todos los puntos verifican…») y las frases que siguen al fragmento («Los resultados surgen además…» y «Las laterales…») no cambian.
 - **Acción:** REEMPLAZAR
 - **Texto final:** El más exigido es el pliegue de las pestañas (CS = 3,16), seguido del borde del agujero de Ø36 mm de la pared del actuador (3,22) y del borde del agujero de la guía (3,46). En las pestañas, la amplitud se calcula con FIN = 581 N, mayor que la fuerza de operación que realmente las recorre (Sección 17.2); en la pared del actuador, la define el estado de carga del tope, con la fuerza de choque acotada de la Sección 16.5.
 
 ### SECCIÓN 18.1
 
-**C47**
+**C48**
+- **Ubicación:** Sección 18.1. Origen: las dos imágenes y el título «Soporte de la tolva: ménsulas, postes y voladizo de la bancada», que hoy están al final de "Voladizo de la bancada". Destino: inmediatamente **después** del primer párrafo de 18.1, que termina en «configuración de soporte por ménsulas sobre columnas [82].»
+- **Acción:** MOVER (imágenes y título juntos)
+- **Qué se ajusta:** nada en el texto. La figura pasa a ser la primera de la Sección 18 (Figura 51), que es también la primera que se cita.
+
+**C49**
 - **Ubicación:** Sección 18.1, "Voladizo de la bancada". Ancla: «se verifica junto con ella (Sección 19)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** se verifica junto con ella (Sección 20)
 
 ### NUEVA SECCIÓN 19
 
-**C48**
+**C50**
 - **Ubicación:** Entre el final de la Sección 18 (el párrafo «[completar: resultados del análisis por elementos finitos de la pared de la tolva junto a las ménsulas.]») y el título «19. Verificación estructural de la bancada».
 - **Acción:** AGREGAR (sección completa)
 - **Texto final:**
@@ -518,17 +530,17 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > ### **Material**
 >
-> El carro y la placa soporte son de SAE 1010 laminado en caliente [64], galvanizados en caliente junto con la bancada (Secciones 13.1 y 13.2). Sobre ellos apoyan piezas de otros dos metales. El soporte de la boquilla, de AISI 304, es pequeño frente a la superficie de zinc, por lo que el riesgo galvánico es bajo [61], [62], con el criterio de la Sección 17.1. Las bridas de los bujes son de aluminio anodizado, y su contacto con el zinc produce en ambiente atmosférico una corrosión adicional nula o leve [105].
+> El carro y la placa soporte son de SAE 1010 laminado en caliente [61], galvanizados en caliente junto con la bancada (Secciones 13.1 y 13.2). Sobre ellos apoyan piezas de otros dos metales. El soporte de la boquilla, de AISI 304, es pequeño frente a la superficie de zinc, por lo que el riesgo galvánico es bajo [58], [59], con el criterio de la Sección 17.1. Las bridas de los bujes son de aluminio anodizado, y su contacto con el zinc produce en ambiente atmosférico una corrosión adicional nula o leve [102].
 >
 > ## **19.2 Actuador del obturador**
 >
-> Se usa un cilindro de doble efecto, para que la apertura y el cierre sean forzados por aire, con el criterio de la Sección 4: SMC CJ5-S de acero inoxidable en su diámetro menor, Ø10, con vástago de 4 mm y carrera estándar de 45 mm [97]. A p = 0,55 MPa:
+> Se usa un cilindro de doble efecto, para que la apertura y el cierre sean forzados por aire, con el criterio de la Sección 4: SMC CJ5-S de acero inoxidable en su diámetro menor, Ø10, con vástago de 4 mm y carrera estándar de 45 mm [94]. A p = 0,55 MPa:
 >
 > *Favance = p × π × D² / 4 ≈ 43,2 N ; Fretroceso = p × π × (D² − dv²) / 4 ≈ 36,3 N*
 >
 > donde D = 10 mm es el diámetro del pistón y dv = 4 mm el del vástago.
 >
-> El avance abre y el retroceso cierra. Como la cabeza está debajo del asiento, la presión del producto la empuja hacia abajo, en el sentido de apertura. El caso exigente es el cierre, al terminar la inyección (Figura 62a). La presión sobre la cabeza es, como máximo, la pérdida de carga entre el asiento y la salida durante la inyección, 30.645 Pa (tramos 3 a 9 de la Tabla 7). Se aplica sobre el área sellada por la junta, tomada del lado seguro con el diámetro exterior de la cabeza, dj = 20 mm:
+> El avance abre y el retroceso cierra. Como la cabeza está debajo del asiento, la presión del producto la empuja hacia abajo, en el sentido de apertura. El caso exigente es el cierre, al terminar la inyección (Figura 62a). La presión sobre la cabeza es, como máximo, la pérdida de carga entre el asiento y la salida durante la inyección, 30.645 Pa (tramos 3 a 9 de la Tabla 7). Se aplica sobre el área sellada por el *o-ring*, tomada del lado seguro con el diámetro exterior de la cabeza, dj = 20 mm:
 >
 > *Fhidráulica = p × π × (dj² − dv²) / 4 = 0,0306 × π × (20² − 4²) / 4 ≈ 9,2 N*
 >
@@ -539,9 +551,9 @@ Estructura final (solo lo nuevo, movido o renumerado):
 > | **Verificación** | **Valor calculado** | **Límite** | **Resultado** |
 > | --- | --- | --- | --- |
 > | Factor de carga en el cierre | φ = 9,2 / 36,3 = 0,25 | φ ≤ 0,5 [9] | Verifica |
-> | Presión de trabajo | 0,55 MPa | 0,1 a 0,7 MPa [97] | Verifica |
-> | Velocidad del pistón | 300 mm/s (45 mm en 0,15 s) | 50 a 750 mm/s [97] | Verifica |
-> | Energía cinética | 0,002 J | 0,035 J [97] | Verifica |
+> | Presión de trabajo | 0,55 MPa | 0,1 a 0,7 MPa [94] | Verifica |
+> | Velocidad del pistón | 300 mm/s (45 mm en 0,15 s) | 50 a 750 mm/s [94] | Verifica |
+> | Energía cinética | 0,002 J | 0,035 J [94] | Verifica |
 >
 > Al abrir, el vástago entra 45 mm en el conducto y desplaza 565 mm³, que salen por la lanza al envase. Al cerrar, sale los mismos 45 mm y aspira ese volumen por la punta: el producto retrocede 565 / 164,7 ≈ 3,4 mm dentro de la lanza y no queda una gota colgando (Figura 62b). Como el vástago entra y sale el mismo volumen en cada ciclo, cada envase recibe exactamente el volumen barrido por el pistón.
 >
@@ -569,13 +581,13 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > ## **19.4 Carro vertical**
 >
-> El carro es una chapa de SAE 1010 laminada en caliente de 6,35 mm [64], de 190 × 80 mm (Figura 64). Lleva dos bujes con brida, el soporte de la boquilla, la unión flotante del actuador y un agujero de paso de Ø20 mm para el extremo del husillo, que lo atraviesa cuando el carro sube.
+> El carro es una chapa de SAE 1010 laminada en caliente de 6,35 mm [61], de 190 × 80 mm (Figura 64). Lleva dos bujes con brida, el soporte de la boquilla, la unión flotante del actuador y un agujero de paso de Ø20 mm para el extremo del husillo, que lo atraviesa cuando el carro sube.
 >
 > La resistencia no define el espesor (Sección 19.5). Se adopta 6,35 mm, el mismo espesor de la placa superior del bastidor (Sección 19.7), para que los agujeros roscados M4 de los bujes y M5 del soporte de la boquilla tengan un largo de rosca de al menos un diámetro.
 >
 > ### **Soporte de la boquilla**
 >
-> El soporte une la T al carro (Figura 64). Es una pieza de AISI 304 formada por un ala, un puente y una abrazadera partida que toma el tramo recto de la T entre la rama lateral y la boca superior. El ala apoya sobre la cara superior del carro y se fija con dos tornillos M5 de acero inoxidable A2-70; la tapa de la abrazadera cierra con otros dos M5. Las dos mitades de la abrazadera se cortan de una misma pieza y el agujero se mecaniza al diámetro exterior medido en la T comprada, porque esa medida cambia entre fabricantes (39,6 mm en la de la referencia [99]). El eje de la boquilla queda 80 mm por delante del plano de las guías.
+> El soporte une la T al carro (Figura 64). Es una pieza de AISI 304 formada por un ala, un puente y una abrazadera partida que toma el tramo recto de la T entre la rama lateral y la boca superior. El ala apoya sobre la cara superior del carro y se fija con dos tornillos M5 de acero inoxidable A2-70; la tapa de la abrazadera cierra con otros dos M5. Las dos mitades de la abrazadera se cortan de una misma pieza y el agujero se mecaniza al diámetro exterior medido en la T comprada, porque esa medida cambia entre fabricantes (39,6 mm en la de la referencia [96]). El eje de la boquilla queda 80 mm por delante del plano de las guías.
 >
 > La cara inferior de la abrazadera apoya sobre el lomo de la rama lateral, y del lado de la rama cada mitad tiene una oreja que baja por el costado de la rama. Así la rama queda encajada: la T no puede girar y una fuerza hacia arriba sobre la lanza pasa al soporte por contacto, sin depender del apriete. El apriete de la tapa sostiene el peso de la boquilla.
 >
@@ -592,15 +604,15 @@ Estructura final (solo lo nuevo, movido o renumerado):
 > | **Componente** | **Origen** | **Masa (kg)** |
 > | --- | --- | --- |
 > | Carro (chapa de SAE 1010 de 6,35 mm, 190 × 80 mm) | Cálculo | 0,700 |
-> | Bujes igus FJUM-01-12 (2) | 42 g cada uno [100] | 0,084 |
+> | Bujes igus FJUM-01-12 (2) | 42 g cada uno [97] | 0,084 |
 > | Soporte de la boquilla (AISI 304) | Cálculo | 0,221 |
-> | T roscada 1” clase 150 | Catálogo [94] | 0,256 |
+> | T roscada 1” clase 150 | Catálogo [91] | 0,256 |
 > | Pieza de punta | Cálculo | 0,383 |
 > | Pieza de lanza | Cálculo | 0,249 |
 > | Tubo de la lanza (15,88 × 0,70 × 113 mm) | Cálculo | 0,029 |
 > | Tapón-guía | Cálculo | 0,261 |
 > | Linterna | Cálculo | 0,162 |
-> | Actuador CJ5-S Ø10 × 45 | 52 g + 3 × 4 g [97] | 0,064 |
+> | Actuador CJ5-S Ø10 × 45 | 52 g + 3 × 4 g [94] | 0,064 |
 > | Vástago y obturador | Cálculo | 0,030 |
 > | Producto dentro de la boquilla abierta (138 ml) | ρ = 1.100 kg/m³ | 0,152 |
 > | **Total** |  | **2,591** |
@@ -609,7 +621,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > ### **Bujes y guías**
 >
-> El carro y la placa soporte deslizan sobre las dos guías de Ø12 mm, con un buje igus drylin R FJUM-01-12 por guía en cada placa: buje con brida de aluminio anodizado y liner de iglidur J, de 32 mm de largo, 960 N de carga dinámica (p = 5 MPa), 6.720 N de carga estática (p = 35 MPa) y 42 g [100]. La brida se atornilla a la placa con tornillos M4 y el cuerpo del buje entra en un agujero de Ø22 mm [100].
+> El carro y la placa soporte deslizan sobre las dos guías de Ø12 mm, con un buje igus drylin R FJUM-01-12 por guía en cada placa: buje con brida de aluminio anodizado y liner de iglidur J, de 32 mm de largo, 960 N de carga dinámica (p = 5 MPa), 6.720 N de carga estática (p = 35 MPa) y 42 g [97]. La brida se atornilla a la placa con tornillos M4 y el cuerpo del buje entra en un agujero de Ø22 mm [97].
 >
 > Con una distribución lineal de presión en el buje, sus resultantes quedan separadas 2L/3 (Figura 65b) y la fuerza en cada extremo es:
 >
@@ -641,23 +653,23 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > El actuador baja la lanza 150 mm, la sube a velocidad constante durante el llenado y después la retira del envase en la subida rápida. La carrera de 150 mm cubre el recorrido de la punta dentro del envase, 108 mm, y deja la punta 42 mm sobre la boca con el carro arriba, holgura suficiente para el paso del envase.
 >
-> Se adopta el cilindro de baja velocidad SMC CJ2X en Ø16, con imán para los detectores (versión CDJ2X) y carrera estándar de 150 mm [101], en la designación CDJ2XF16-150-B: brida delantera y detectores en montaje con banda [103]. La serie tiene tubo y vástago de acero inoxidable [102] y admite velocidades de 1 a 300 mm/s. Se pide en la versión con brida delantera, que se atornilla sobre la placa soporte con dos tornillos M5 [103]. A 0,55 MPa:
+> Se adopta el cilindro de baja velocidad SMC CJ2X en Ø16, con imán para los detectores (versión CDJ2X) y carrera estándar de 150 mm [98], en la designación CDJ2XF16-150-B: brida delantera y detectores en montaje con banda [100]. La serie tiene tubo y vástago de acero inoxidable [99] y admite velocidades de 1 a 300 mm/s. Se pide en la versión con brida delantera, que se atornilla sobre la placa soporte con dos tornillos M5 [100]. A 0,55 MPa:
 >
 > *Favance = p × π × D² / 4 ≈ 110,6 N ; Fretroceso = p × π × (D² − dv²) / 4 ≈ 99,8 N*
 >
 > donde D = 16 mm y dv = 5 mm.
 >
-> El retroceso sube el carro con el peso del conjunto móvil (Sección 19.4). En el avance el peso del carro ayuda, y el actuador solo vence la fricción, porque la lanza no apoya sobre nada: la carrera termina en el tope interno del cilindro, que fija la altura de la punta, y el envase no recibe ninguna fuerza. El vástago se une al carro con una unión flotante SMC JA15-5-080, para rosca M5 × 0,8 [104]. La unión absorbe la excentricidad y el desalineamiento entre el actuador y las guías, ya que el fabricante pide no aplicar carga lateral al cilindro [103]. La Tabla 33 resume las verificaciones: el factor de carga en la subida, frente al máximo de 0,5 [9], las velocidades y la energía cinética del conjunto móvil en los tramos rápidos.
+> El retroceso sube el carro con el peso del conjunto móvil (Sección 19.4). En el avance el peso del carro ayuda, y el actuador solo vence la fricción, porque la lanza no apoya sobre nada: la carrera termina en el tope interno del cilindro, que fija la altura de la punta, y el envase no recibe ninguna fuerza. El vástago se une al carro con una unión flotante SMC JA15-5-080, para rosca M5 × 0,8 [101]. La unión absorbe la excentricidad y el desalineamiento entre el actuador y las guías, ya que el fabricante pide no aplicar carga lateral al cilindro [100]. La Tabla 33 resume las verificaciones: el factor de carga en la subida, frente al máximo de 0,5 [9], las velocidades y la energía cinética del conjunto móvil en los tramos rápidos.
 >
 > **Tabla [auto: 33].** Verificación del actuador del carro SMC CJ2X Ø16 × 150
 >
 > | **Verificación** | **Valor calculado** | **Límite** | **Resultado** |
 > | --- | --- | --- | --- |
 > | Factor de carga en la subida | φ = 25,4 / 99,8 = 0,25 | φ ≤ 0,5 [9] | Verifica |
-> | Velocidad de subida lenta | 17,1 y 8,7 mm/s | 1 a 300 mm/s [103] | Verifica |
-> | Velocidad de los tramos rápidos | 100 mm/s | 1 a 300 mm/s [103] | Verifica |
-> | Energía cinética | ½ × 2,591 × 0,1² ≈ 0,013 J | 0,090 J [103] | Verifica |
-> | Carrera | 150 mm (108 mm en el envase + 42 mm de paso) | Carrera estándar [101] | Verifica |
+> | Velocidad de subida lenta | 17,1 y 8,7 mm/s | 1 a 300 mm/s [100] | Verifica |
+> | Velocidad de los tramos rápidos | 100 mm/s | 1 a 300 mm/s [100] | Verifica |
+> | Energía cinética | ½ × 2,591 × 0,1² ≈ 0,013 J | 0,090 J [100] | Verifica |
+> | Carrera | 150 mm (108 mm en el envase + 42 mm de paso) | Carrera estándar [98] | Verifica |
 >
 > Si el carro empujara contra un obstáculo, la fuerza de avance quedaría aplicada en el eje de la boquilla, a 80 mm del plano de las guías. La sección de las guías tiene un ancho neto de 190 − 2 × 22 − 20 = 126 mm, descontando los agujeros de los bujes y del husillo:
 >
@@ -670,7 +682,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 > * **Camino rápido:** una electroválvula 2/2 normal cerrada, Y-rápido, que deja escapar el aire libremente. Está abierta en la bajada y en la subida rápida.
 > * **Camino lento:** una electroválvula 3/2 usada como selectora, Y-formato, que envía el escape al regulador A (envase de 250 ml) o al B (envase de 500 ml). Los dos tienen válvula antirretorno, de modo que en la bajada el aire entra libre.
 >
-> Para la operación vertical, el fabricante recomienda reguladores de baja velocidad, montados lo más cerca posible del cilindro, y regular a la vez la entrada de aire, lo que reduce el stick-slip [103]. Por eso A y B son reguladores de baja velocidad de SMC, con un área efectiva controlada de 0,1 a 0,6 mm² según el tamaño, y la cámara inferior lleva un regulador doble de baja velocidad, que regula la entrada de aire durante la subida y la salida durante la bajada [103]. Los reguladores van sobre la placa soporte, junto al cilindro, de modo que las mangueras hasta las bocas son cortas.
+> Para la operación vertical, el fabricante recomienda reguladores de baja velocidad, montados lo más cerca posible del cilindro, y regular a la vez la entrada de aire, lo que reduce el stick-slip [100]. Por eso A y B son reguladores de baja velocidad de SMC, con un área efectiva controlada de 0,1 a 0,6 mm² según el tamaño, y la cámara inferior lleva un regulador doble de baja velocidad, que regula la entrada de aire durante la subida y la salida durante la bajada [100]. Los reguladores van sobre la placa soporte, junto al cilindro, de modo que las mangueras hasta las bocas son cortas.
 >
 > [IMAGEN: la que precede a «**Figura 56.** Circuito neumático del actuador del carro» en seccion17.md]
 >
@@ -680,15 +692,15 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > ## **19.6 Regulación de altura**
 >
-> La placa soporte es una chapa de SAE 1010 laminada en caliente de 6,35 mm [64], de 190 × 80 mm, con un buje igual en cada guía. Lleva el actuador del carro, los reguladores de velocidad y la tuerca del husillo. Su espesor se adopta con el mismo criterio del carro (Sección 19.4): un largo de rosca de al menos un diámetro en los agujeros roscados M4 de los bujes y M5 de la brida del actuador.
+> La placa soporte es una chapa de SAE 1010 laminada en caliente de 6,35 mm [61], de 190 × 80 mm, con un buje igual en cada guía. Lleva el actuador del carro, los reguladores de velocidad y la tuerca del husillo. Su espesor se adopta con el mismo criterio del carro (Sección 19.4): un largo de rosca de al menos un diámetro en los agujeros roscados M4 de los bujes y M5 de la brida del actuador.
 >
-> El husillo es de rosca trapecial Tr16 × 4 de una entrada, en acero inoxidable 1.4301 [106]. Se enrosca en una tuerca igus drylin de iglidur J para Tr16 × 4 [107], atornillada a la placa soporte, y gira apoyado en la placa superior (Figura 67).
+> El husillo es de rosca trapecial Tr16 × 4 de una entrada, en acero inoxidable 1.4301 [103]. Se enrosca en una tuerca igus drylin de iglidur J para Tr16 × 4 [104], atornillada a la placa soporte, y gira apoyado en la placa superior (Figura 67).
 >
-> El cabezal regulado es el conjunto que cuelga del husillo: el conjunto móvil del carro (Tabla 31), la placa soporte con sus dos bujes, el actuador del carro, sus reguladores y la tuerca del husillo. La placa soporte tiene una masa de 0,715 kg, descontando del lado seguro solo los agujeros de Ø22 mm de los bujes. Los dos bujes suman 0,084 kg [100], y el actuador CDJ2XF16-150-B, 55 + 6,5 × 150 / 15 + 15 = 135 g [103]. Las masas de los reguladores y de la tuerca no figuran en los catálogos consultados y quedan cubiertas, como las de los detectores y las mangueras de aire, por el margen de las verificaciones:
+> El cabezal regulado es el conjunto que cuelga del husillo: el conjunto móvil del carro (Tabla 31), la placa soporte con sus dos bujes, el actuador del carro, sus reguladores y la tuerca del husillo. La placa soporte tiene una masa de 0,715 kg, descontando del lado seguro solo los agujeros de Ø22 mm de los bujes. Los dos bujes suman 0,084 kg [97], y el actuador CDJ2XF16-150-B, 55 + 6,5 × 150 / 15 + 15 = 135 g [100]. Las masas de los reguladores y de la tuerca no figuran en los catálogos consultados y quedan cubiertas, como las de los detectores y las mangueras de aire, por el margen de las verificaciones:
 >
 > *Wregulado = (2,591 + 0,715 + 0,084 + 0,135) × 9,81 ≈ 34,6 N*
 >
-> El husillo se gira con el mismo volante del ajuste de carrera, Elesa VRTP.80 A-10-K, sin manija [90] (Sección 16.7). Su extremo superior se tornea a Ø10 h9, con un chavetero para la chaveta DIN 6885 A 3 × 3 × 14 y un agujero roscado M4 en la punta, y gira en un agujero de Ø10,5 mm de la placa superior. El tramo torneado sobresale de la placa lo justo para que la arandela GN 184.5-20, fijada con un tornillo DIN 7991 M4 [91], apoye sobre la punta del husillo y retenga el buje del volante con un pequeño juego axial, sin apretar la placa. El peso del cabezal regulado pasa así de la arandela al buje del volante, que apoya sobre la cara superior de la placa con una arandela de acero inoxidable. Una carga hacia arriba la toma el escalón entre la rosca y el extremo torneado, que apoya contra la cara inferior de la placa con otra arandela. El volante solo se acciona en el cambio de formato, a mano, por lo que el agujero de la placa basta como apoyo de giro, sin rodamientos.
+> El husillo se gira con el mismo volante del ajuste de carrera, Elesa VRTP.80 A-10-K, sin manija [87] (Sección 16.7). Su extremo superior se tornea a Ø10 h9, con un chavetero para la chaveta DIN 6885 A 3 × 3 × 14 y un agujero roscado M4 en la punta, y gira en un agujero de Ø10,5 mm de la placa superior. El tramo torneado sobresale de la placa lo justo para que la arandela GN 184.5-20, fijada con un tornillo DIN 7991 M4 [88], apoye sobre la punta del husillo y retenga el buje del volante con un pequeño juego axial, sin apretar la placa. El peso del cabezal regulado pasa así de la arandela al buje del volante, que apoya sobre la cara superior de la placa con una arandela de acero inoxidable. Una carga hacia arriba la toma el escalón entre la rosca y el extremo torneado, que apoya contra la cara inferior de la placa con otra arandela. El volante solo se acciona en el cambio de formato, a mano, por lo que el agujero de la placa basta como apoyo de giro, sin rodamientos.
 >
 > [IMAGEN: la que precede a «**Figura 58.** Apoyo del husillo en la placa superior» en seccion17.md]
 >
@@ -696,7 +708,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > El recorrido, 80 mm, cubre los 49 mm entre formatos y deja 25 mm sobre la posición de 500 ml y 6 mm bajo la de 250 ml para el ajuste fino y las tolerancias de envases y cinta. El ajuste por el domo del fondo (Sección 3.3) se hace subiendo el cabezal dentro de esos márgenes.
 >
-> El fabricante indica que los husillos trapeciales de una entrada con sus tuercas son autoblocantes y que los de dos entradas no lo son [106]. Con el husillo de una entrada, el cabezal queda sostenido en cualquier posición sin freno.
+> El fabricante indica que los husillos trapeciales de una entrada con sus tuercas son autoblocantes y que los de dos entradas no lo son [103]. Con el husillo de una entrada, el cabezal queda sostenido en cualquier posición sin freno.
 >
 > Contra el giro por vibraciones, la placa soporte lleva un buje partido sobre una de las guías, que se aprieta con una palanca. Para repetir cada formato, un montante lleva una regla graduada en milímetros con un índice en la placa.
 >
@@ -705,10 +717,10 @@ Estructura final (solo lo nuevo, movido o renumerado):
 > El bastidor forma parte de la bancada y se galvaniza con ella una vez soldado (Sección 13.2). Está formado por (Figura 68):
 >
 > * **Guías:** barras de SAE 1010 de Ø12 × 458 mm. Cada una entra por un agujero del tubo delantero, apoya en la pared inferior y se suelda arriba.
-> * **Montantes:** tubos de 25 × 25 × 1,25 mm [55] de 421,7 mm, soldados sobre el tubo a 225 mm entre ejes, con un tapón roscado M6 en el extremo.
-> * **Placa superior:** chapa de SAE 1010 de 6,35 mm [64], de 250 × 40 mm, atornillada a los montantes con tornillos M6 clase 4.8 (Sección 17.1). Va atornillada para poder montar el carro y la placa soporte en las guías.
+> * **Montantes:** tubos de 25 × 25 × 1,25 mm [52] de 421,7 mm, soldados sobre el tubo a 225 mm entre ejes, con un tapón roscado M6 en el extremo.
+> * **Placa superior:** chapa de SAE 1010 de 6,35 mm [61], de 250 × 40 mm, atornillada a los montantes con tornillos M6 clase 4.8 (Sección 17.1). Va atornillada para poder montar el carro y la placa soporte en las guías.
 >
-> Las soldaduras se hacen con el procedimiento para chapa delgada de la Sección 13.1 [67], con un dispositivo que mantiene vertical cada guía.
+> Las soldaduras se hacen con el procedimiento para chapa delgada de la Sección 13.1 [64], con un dispositivo que mantiene vertical cada guía.
 >
 > [IMAGEN: la que precede a «**Figura 59.** Detalle del bastidor» en seccion17.md]
 >
@@ -760,7 +772,7 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > ### **Sensores del cabezal**
 >
-> El cabezal lleva los detectores del actuador del carro y el pulsador de parada (Tabla 35). Los detectores son de estado sólido, SMC D-M9, aplicables a la serie CJ2X en montaje con banda [103]. Van en el tubo del actuador, que sube y baja con la placa soporte, de modo que sirven para los dos formatos sin moverlos y ninguno lleva cable sobre el carro.
+> El cabezal lleva los detectores del actuador del carro y el pulsador de parada (Tabla 35). Los detectores son de estado sólido, SMC D-M9, aplicables a la serie CJ2X en montaje con banda [100]. Van en el tubo del actuador, que sube y baja con la placa soporte, de modo que sirven para los dos formatos sin moverlos y ninguno lleva cable sobre el carro.
 >
 > Además de la válvula del carro, Y-rápido e Y-formato, el obturador tiene su propia electroválvula monoestable, con reposo en cerrado: abre junto con el avance del pistón y cierra al terminar la inyección, antes de la subida rápida.
 >
@@ -803,135 +815,140 @@ Estructura final (solo lo nuevo, movido o renumerado):
 >
 > | **Pieza** | **Cant.** | **Material / especificación** | **Fabricación** | **Función** |
 > | --- | --- | --- | --- | --- |
-> | Actuador del obturador | 1 | SMC CJ5-S Ø10 × 45, doble efecto, SUS304, juntas de FKM [97] | Comercial | Abre y cierra el obturador |
+> | Actuador del obturador | 1 | SMC CJ5-S Ø10 × 45, doble efecto, SUS304, juntas de FKM [94] | Comercial | Abre y cierra el obturador |
 > | Soporte de la boquilla | 1 | AISI 304: ala, puente y abrazadera partida mecanizada al diámetro exterior de la T | Mecanizado; las dos mitades de la abrazadera se cortan de una misma pieza | Une la T al carro e impide su giro |
 > | Tornillos del soporte | 4 | M5, acero inoxidable A2-70 | Comerciales | Fijan el ala al carro y cierran la abrazadera |
-> | Carro | 1 | Chapa de SAE 1010 laminada en caliente de 190 × 80 × 6,35 mm [64], galvanizada | Corte; agujeros de Ø22 y Ø20 mm; roscas M4 y M5; galvanizado con la bancada | Lleva la boquilla en la carrera vertical |
-> | Placa soporte | 1 | Chapa de SAE 1010 laminada en caliente de 190 × 80 × 6,35 mm [64], galvanizada | Corte; agujeros de Ø22 mm; roscas M4 y M5; galvanizado con la bancada | Lleva el actuador del carro, los reguladores y la tuerca; fija la altura del cabezal |
-> | Bujes con brida | 4 | igus drylin R FJUM-01-12, aluminio anodizado y liner de iglidur J [100] | Comerciales | Deslizamiento del carro y de la placa soporte sobre las guías |
+> | Carro | 1 | Chapa de SAE 1010 laminada en caliente de 190 × 80 × 6,35 mm [61], galvanizada | Corte; agujeros de Ø22 y Ø20 mm; roscas M4 y M5; galvanizado con la bancada | Lleva la boquilla en la carrera vertical |
+> | Placa soporte | 1 | Chapa de SAE 1010 laminada en caliente de 190 × 80 × 6,35 mm [61], galvanizada | Corte; agujeros de Ø22 mm; roscas M4 y M5; galvanizado con la bancada | Lleva el actuador del carro, los reguladores y la tuerca; fija la altura del cabezal |
+> | Bujes con brida | 4 | igus drylin R FJUM-01-12, aluminio anodizado y liner de iglidur J [97] | Comerciales | Deslizamiento del carro y de la placa soporte sobre las guías |
 > | Tornillos de los bujes | [completar: cantidad] | M4 [completar: norma, largo y material] | Comerciales | Fijan las bridas de los bujes |
-> | Actuador del carro | 1 | SMC CDJ2X Ø16 × 150, con imán y brida delantera [101], [103] | Comercial | Baja y sube el carro |
-> | Tornillos de la brida del actuador | 2 | M5 [103] [completar: norma, largo y material] | Comerciales | Fijan el actuador a la placa soporte |
-> | Unión flotante | 1 | SMC JA15-5-080, M5 × 0,8 [104] | Comercial | Une el vástago del actuador con el carro; absorbe excentricidad y desalineamiento |
-> | Reguladores de baja velocidad A y B | 2 | SMC, con antirretorno, área efectiva controlada de 0,1 a 0,6 mm² [103] | Comerciales | Velocidad de subida lenta de cada formato |
-> | Regulador doble de baja velocidad | 1 | SMC [103] | Comercial | Regula la entrada en la subida y la salida en la bajada |
+> | Actuador del carro | 1 | SMC CDJ2X Ø16 × 150, con imán y brida delantera [98], [100] | Comercial | Baja y sube el carro |
+> | Tornillos de la brida del actuador | 2 | M5 [100] [completar: norma, largo y material] | Comerciales | Fijan el actuador a la placa soporte |
+> | Unión flotante | 1 | SMC JA15-5-080, M5 × 0,8 [101] | Comercial | Une el vástago del actuador con el carro; absorbe excentricidad y desalineamiento |
+> | Reguladores de baja velocidad A y B | 2 | SMC, con antirretorno, área efectiva controlada de 0,1 a 0,6 mm² [100] | Comerciales | Velocidad de subida lenta de cada formato |
+> | Regulador doble de baja velocidad | 1 | SMC [100] | Comercial | Regula la entrada en la subida y la salida en la bajada |
 > | Electroválvulas del cabezal | 4 | Válvula del carro; Y-rápido, 2/2 normal cerrada; Y-formato, 3/2; del obturador, monoestable con reposo en cerrado. Modelos a definir con el circuito neumático (Tabla 38) | Comerciales | Mando del carro, de sus velocidades y del obturador |
-> | Detectores | 3 | SMC D-M9, de estado sólido, en montaje con banda [103] | Comerciales | Carro arriba, carro abajo y fin de subida lenta |
+> | Detectores | 3 | SMC D-M9, de estado sólido, en montaje con banda [100] | Comerciales | Carro arriba, carro abajo y fin de subida lenta |
 > | Pulsador de parada de llenado | 1 | [completar: modelo] | Comercial | Parada del operario |
-> | Husillo | 1 | Tr16 × 4 de una entrada, acero inoxidable 1.4301 [106]; largo [completar] | Corte a medida; extremo superior torneado a Ø10 h9 con chavetero y agujero roscado M4 | Regula la altura del cabezal |
-> | Tuerca del husillo | 1 | igus drylin, iglidur J, para Tr16 × 4 [107] | Comercial | Une el husillo con la placa soporte |
-> | Volante | 1 | Elesa VRTP.80 A-10-K, Ø80 mm, tecnopolímero, sin manija [90] | Comercial | Gira el husillo en el cambio de formato |
+> | Husillo | 1 | Tr16 × 4 de una entrada, acero inoxidable 1.4301 [103]; largo [completar] | Corte a medida; extremo superior torneado a Ø10 h9 con chavetero y agujero roscado M4 | Regula la altura del cabezal |
+> | Tuerca del husillo | 1 | igus drylin, iglidur J, para Tr16 × 4 [104] | Comercial | Une el husillo con la placa soporte |
+> | Volante | 1 | Elesa VRTP.80 A-10-K, Ø80 mm, tecnopolímero, sin manija [87] | Comercial | Gira el husillo en el cambio de formato |
 > | Chaveta del volante | 1 | DIN 6885 A 3 × 3 × 14 | Comercial | Transmite el giro del volante al husillo |
-> | Arandela de retención y tornillo del volante | 1 + 1 | GN 184.5-20 inoxidable; DIN 7991 M4 A2 [91] | Comerciales | Retienen el volante sobre el husillo |
+> | Arandela de retención y tornillo del volante | 1 + 1 | GN 184.5-20 inoxidable; DIN 7991 M4 A2 [88] | Comerciales | Retienen el volante sobre el husillo |
 > | Arandelas del husillo | 2 | Acero inoxidable [completar: medida] | Comerciales | Apoyo del cubo del volante y del escalón del husillo en la placa superior |
 > | Traba | 1 | Buje partido con palanca [completar: material o modelo] | [completar] | Traba la placa soporte sobre una guía |
 > | Regla graduada e índice | 1 + 1 | Regla en milímetros [completar: material] | [completar] | Repetir la altura de cada formato |
 > | Guías | 2 | Barra de SAE 1010 de Ø12 × 458 mm | Corte; soldadas al tubo delantero; galvanizadas con la bancada | Guían el carro y la placa soporte |
-> | Montantes | 2 | Tubo de 25 × 25 × 1,25 mm [55], 421,7 mm, con tapón roscado M6 | Corte; soldados al tubo delantero; galvanizados con la bancada | Sostienen la placa superior |
-> | Placa superior | 1 | Chapa de SAE 1010 de 250 × 40 × 6,35 mm [64], agujero de Ø10,5 mm | Corte y agujereado | Apoyo del husillo; une los montantes |
+> | Montantes | 2 | Tubo de 25 × 25 × 1,25 mm [52], 421,7 mm, con tapón roscado M6 | Corte; soldados al tubo delantero; galvanizados con la bancada | Sostienen la placa superior |
+> | Placa superior | 1 | Chapa de SAE 1010 de 250 × 40 × 6,35 mm [61], agujero de Ø10,5 mm | Corte y agujereado | Apoyo del husillo; une los montantes |
 > | Tornillos de la placa superior | 2 | M6 clase 4.8, zincados (Sección 17.1) | Comerciales | Fijan la placa superior a los montantes |
 
 ### SECCIÓN 20 (ex 19, verificación de la bancada)
 
-**C49**
+**C51**
 - **Ubicación:** Ancla: «19. Verificación estructural de la bancada» (el título de la sección, no la línea del índice).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 20. Verificación estructural de la bancada
 
-**C50**
+**C52**
 - **Ubicación:** Primera frase de la sección. Ancla: «y el peso de la tolva llena sobre su soporte (Sección 18.2).»
 - **Acción:** REEMPLAZAR
 - **Texto final:** el peso de la tolva llena sobre su soporte (Sección 18.2) y el del cabezal de llenado sobre el tubo delantero (Sección 19).
 
-**C51**
+**C53**
 - **Ubicación:** Última frase de la sección. Ancla: «sus resultados deben actualizarse con el perfil definitivo (Sección 21)»
 - **Acción:** REEMPLAZAR
 - **Texto final:** sus resultados deben actualizarse con el perfil definitivo (Sección 22)
 
 ### SECCIÓN 21 (ex 20, fuentes)
 
-**C52**
+**C54**
 - **Ubicación:** Ancla: «20. Fuentes técnicas consultadas» (el título de la sección).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 21. Fuentes técnicas consultadas
 
-**C53**
+**C55**
 - **Ubicación:** Frase inicial. Ancla: «caja de soporte y soporte de la tolva).»
 - **Acción:** REEMPLAZAR
 - **Texto final:** caja de soporte, soporte de la tolva y cabezal de llenado).
 
-**C54**
-- **Ubicación:** **Después** de la fuente [92] (la que empieza con «[92] Ternium»), al final de la lista.
+**C56**
+- **Ubicación:** Lista de fuentes y todo el texto del informe que no se reemplaza con este archivo.
+- **Acción:** REEMPLAZAR números de cita. Se elimina el salto de la lista ([52] a [54] no existen): cada fuente desde la [55] hasta la [92] baja 3 números, tanto en la lista como en todas sus citas del texto.
+- **Texto final:** [55] → [52], [56] → [53], [57] → [54], …, [91] → [88], [92] → [89]. Las fuentes [1] a [51] no cambian. **Hacer los reemplazos en orden creciente**, de la [55] a la [92], para no pisar números ya cambiados. No aplicarlo a los textos de este archivo, que ya llevan la numeración final.
+
+**C57**
+- **Ubicación:** **Después** de la última fuente de la lista, la que empieza con «[92] Ternium» (pasa a ser [89] con el cambio de renumeración de esta misma sección).
 - **Acción:** AGREGAR. El título "Fuentes técnicas consultadas (continuación)" de seccion17.md **no** se agrega.
 - **Texto final:**
 
-> [93] Patente US5137187, "Anti-spray fluid dispensing nozzle", P. Nichols y R. Lapointe, 1992 (dos válvulas en el conducto de alimentación, accionadas por un vástago que corre por dentro del conducto; la válvula inferior cierra la salida desde adentro, contra un asiento en el extremo de descarga). https://patents.google.com/patent/US5137187A/en
+> [90] Patente US5137187, "Anti-spray fluid dispensing nozzle", P. Nichols y R. Lapointe, 1992 (dos válvulas en el conducto de alimentación, accionadas por un vástago que corre por dentro del conducto; la válvula inferior cierra la salida desde adentro, contra un asiento en el extremo de descarga). https://patents.google.com/patent/US5137187A/en
 >
-> [94] Hydraulic Megastore, "150lb Stainless Steel Fittings" (accesorios roscados de fundición de acero inoxidable CF8M (316); roscas según ISO 7-1, hembra paralela y macho cónico; T igual de 1": A = 38 mm y 0,256 kg; niple hexagonal de 1": 48 mm de largo, 18,5 mm de rosca y 11 mm de hexágono; presión máxima de trabajo de 20 bar entre −20 y 40 °C). https://www.hydraulicmegastore.com/wp-content/uploads/2015/04/150lb-Stainless-Steel-Fittings.pdf
+> [91] Hydraulic Megastore, "150lb Stainless Steel Fittings" (accesorios roscados de fundición de acero inoxidable CF8M (316); roscas según ISO 7-1, hembra paralela y macho cónico; T igual de 1": A = 38 mm y 0,256 kg; niple hexagonal de 1": 48 mm de largo, 18,5 mm de rosca y 11 mm de hexágono; presión máxima de trabajo de 20 bar entre −20 y 40 °C). https://www.hydraulicmegastore.com/wp-content/uploads/2015/04/150lb-Stainless-Steel-Fittings.pdf
 >
-> [95] Anzor, "1" BSP 316 Hex Nipple (NB25)" (accesorios roscados de 150 lb; material según ASTM A276 304 y ASTM A351 CF8 (304) o CF8M (316)). Fuente comercial. https://anzor.co.nz/bsp-npt-fittings/bsp-nipples/hex-nipple/1-bsp-316-hex-nipple-nb25
+> [92] Anzor, "1" BSP 316 Hex Nipple (NB25)" (accesorios roscados de 150 lb; material según ASTM A276 304 y ASTM A351 CF8 (304) o CF8M (316)). Fuente comercial. https://anzor.co.nz/bsp-npt-fittings/bsp-nipples/hex-nipple/1-bsp-316-hex-nipple-nb25
 >
-> [96] Anti-Seize Technology, "Low Density PTFE Thread Seal Tape", serie 26100 (100 % PTFE virgen; conforme a 21 CFR 177.1550; de −240 a +260 °C; apta para agua, productos químicos, etanol y solventes). https://res.cloudinary.com/tacoma-screw-products/image/upload/Documents/618-301_tds.pdf
+> [93] Anti-Seize Technology, "Low Density PTFE Thread Seal Tape", serie 26100 (100 % PTFE virgen; conforme a 21 CFR 177.1550; de −240 a +260 °C; apta para agua, productos químicos, etanol y solventes). https://res.cloudinary.com/tacoma-screw-products/image/upload/Documents/618-301_tds.pdf
 >
-> [97] SMC Corporation of America, catálogo "Series CJ5-S Ø10, Ø16 Stainless Steel Cylinder" (carreras estándar del Ø10: 15, 30, 45, 60, 75, 100, 125 y 150 mm; presión de trabajo de 0,1 a 0,7 MPa; velocidad del pistón de 50 a 750 mm/s; energía cinética admisible de 0,035 J para el Ø10; masa básica de 52 g más 4 g cada 15 mm de carrera; vástago de 4 mm con rosca M4 × 0,7; rosca de montaje delantera M10 × 1,0; tubo, tapas y vástago de acero inoxidable 304; juntas de NBR o FKM; no admite instalación en la zona de alimentos y sí en la zona de salpicaduras). https://www.smcpneumatics.com/pdfs/CJ5S.pdf
+> [94] SMC Corporation of America, catálogo "Series CJ5-S Ø10, Ø16 Stainless Steel Cylinder" (carreras estándar del Ø10: 15, 30, 45, 60, 75, 100, 125 y 150 mm; presión de trabajo de 0,1 a 0,7 MPa; velocidad del pistón de 50 a 750 mm/s; energía cinética admisible de 0,035 J para el Ø10; masa básica de 52 g más 4 g cada 15 mm de carrera; vástago de 4 mm con rosca M4 × 0,7; rosca de montaje delantera M10 × 1,0; tubo, tapas y vástago de acero inoxidable 304; juntas de NBR o FKM; no admite instalación en la zona de alimentos y sí en la zona de salpicaduras). https://www.smcpneumatics.com/pdfs/CJ5S.pdf
 >
-> [98] F. M. White, "Fluid Mechanics", McGraw-Hill, Capítulo 6 (flujo laminar completamente desarrollado en conductos no circulares: anillo entre dos cilindros concéntricos).
+> [95] F. M. White, "Fluid Mechanics", McGraw-Hill, Capítulo 6 (flujo laminar completamente desarrollado en conductos no circulares: anillo entre dos cilindros concéntricos).
 >
-> [99] RS Components, "RS PRO Stainless Steel Circular Tee, 1in G(P) Female" (RS 499-3007; acero inoxidable 316, 150 lb; largo de 2,76 in y diámetro exterior de 1,56 in). Fuente comercial. https://static.chipdip.ru/lib/295/DOC041295755.pdf
+> [96] RS Components, "RS PRO Stainless Steel Circular Tee, 1in G(P) Female" (RS 499-3007; acero inoxidable 316, 150 lb; largo de 2,76 in y diámetro exterior de 1,56 in). Fuente comercial. https://static.chipdip.ru/lib/295/DOC041295755.pdf
 >
-> [100] igus, "drylin® R flange bearings: closed, anodised aluminium adapter, round flange" (FJUM-01-12: d1 = 12 mm, d2 = 22 mm h7, brida de Ø42 mm con agujeros de 4,5 mm, largo de 32 mm; carga dinámica de 960 N con p = 5 MPa y estática de 6.720 N con p = 35 MPa; masa de 42 g; liner de iglidur® J). https://www.igus.eu/ContentData/Products/Downloads/drylin-r-anodised-aluminium-adapter-FJUM-01.pdf
+> [97] igus, "drylin® R flange bearings: closed, anodised aluminium adapter, round flange" (FJUM-01-12: d1 = 12 mm, d2 = 22 mm h7, brida de Ø42 mm con agujeros de 4,5 mm, largo de 32 mm; carga dinámica de 960 N con p = 5 MPa y estática de 6.720 N con p = 35 MPa; masa de 42 g; liner de iglidur® J). https://www.igus.eu/ContentData/Products/Downloads/drylin-r-anodised-aluminium-adapter-FJUM-01.pdf
 >
-> [101] SMC Corporation of America, "C(D)J2X, Air Cylinder, Double Acting, Single Rod, Low Speed" (diámetros de 10 y 16 mm; carreras de 15, 30, 45, 60, 75, 100, 125, 150, 175 y 200 mm; versión CDJ2X con imán para detectores). https://elasticsearch.smcpneumatics.com/products/Actuators/Specialty-Actuators/Low-Speed-Low-Friction/Low-Speed/CJ2X/CDJ2X-Air-Cylinder-Double-Acting-Single-Rod-Low-Speed~20543
+> [98] SMC Corporation of America, "C(D)J2X, Air Cylinder, Double Acting, Single Rod, Low Speed" (diámetros de 10 y 16 mm; carreras de 15, 30, 45, 60, 75, 100, 125, 150, 175 y 200 mm; versión CDJ2X con imán para detectores). https://elasticsearch.smcpneumatics.com/products/Actuators/Specialty-Actuators/Low-Speed-Low-Friction/Low-Speed/CJ2X/CDJ2X-Air-Cylinder-Double-Acting-Single-Rod-Low-Speed~20543
 >
-> [102] SMC Corporation of America, ficha "CJ2XB16-15Z" (serie CJ2X: tubo y vástago de acero inoxidable; apta para detectores; montajes básico, con pie, con brida y con doble horquilla). Fuente comercial. https://www.smcpneumatics.com/CJ2XB16-15Z.html
+> [99] SMC Corporation of America, ficha "CJ2XB16-15Z" (serie CJ2X: tubo y vástago de acero inoxidable; apta para detectores; montajes básico, con pie, con brida y con doble horquilla). Fuente comercial. https://www.smcpneumatics.com/CJ2XB16-15Z.html
 >
-> [103] SMC, catálogo "Air Cylinder Series CJ2" (serie CJ2X de baja velocidad, Ø10 y Ø16: velocidad del pistón de 1 a 300 mm/s; energía cinética admisible de 0,090 J para el Ø16; fuga interna de hasta 0,1 l/min (ANR) por su construcción; Ø16: vástago de 5 mm con rosca M5 × 0,8, rosca de montaje M10 × 1,0 y estilo con brida delantera con agujeros de 5,5 mm; detectores de estado sólido D-M9 en montaje con banda; para operación vertical, control de velocidad por el escape con control simultáneo de la entrada para reducir el stick-slip, reguladores de baja velocidad lo más cerca posible del cilindro y ausencia de carga lateral; reguladores de baja velocidad serie AS-FM, con área efectiva controlada de 0,1 a 0,6 mm², y reguladores dobles serie ASD; designación CDJ2X□16-carrera, con F para el estilo con brida delantera y sufijo -B para detectores en montaje con banda; serie CJ2 de doble efecto y simple vástago, Ø16: masa básica de 55 g, 6,5 g adicionales cada 15 mm de carrera y 15 g de la brida delantera). https://docs.rs-online.com/e3ae/0900766b814145b3.pdf
+> [100] SMC, catálogo "Air Cylinder Series CJ2" (serie CJ2X de baja velocidad, Ø10 y Ø16: velocidad del pistón de 1 a 300 mm/s; energía cinética admisible de 0,090 J para el Ø16; fuga interna de hasta 0,1 l/min (ANR) por su construcción; Ø16: vástago de 5 mm con rosca M5 × 0,8, rosca de montaje M10 × 1,0 y estilo con brida delantera con agujeros de 5,5 mm; detectores de estado sólido D-M9 en montaje con banda; para operación vertical, control de velocidad por el escape con control simultáneo de la entrada para reducir el stick-slip, reguladores de baja velocidad lo más cerca posible del cilindro y ausencia de carga lateral; reguladores de baja velocidad serie AS-FM, con área efectiva controlada de 0,1 a 0,6 mm², y reguladores dobles serie ASD; designación CDJ2X□16-carrera, con F para el estilo con brida delantera y sufijo -B para detectores en montaje con banda; serie CJ2 de doble efecto y simple vástago, Ø16: masa básica de 55 g, 6,5 g adicionales cada 15 mm de carrera y 15 g de la brida delantera). https://docs.rs-online.com/e3ae/0900766b814145b3.pdf
 >
-> [104] SMC Corporation of America, "JA15-5-080" (unión flotante de la serie JA con rosca M5 × 0,8). https://elasticsearch.smcpneumatics.com/JA15-5-080.html
+> [101] SMC Corporation of America, "JA15-5-080" (unión flotante de la serie JA con rosca M5 × 0,8). https://elasticsearch.smcpneumatics.com/JA15-5-080.html
 >
-> [105] Galvanizers Association, "HDG Datasheet 10: Bimetallic Corrosion", 2024 (corrosión adicional del zinc en contacto con otros metales en ambiente atmosférico rural e industrial o urbano: aluminio, 0 y 0 a 1, nula o muy leve; acero inoxidable, 0 a 1; bronce, 0 a 1 y 1, con aislación recomendada para las aleaciones de cobre). https://wedge-galv.co.uk/wp-content/uploads/2024/10/10-Bimetallic-Corrosion-2024.pdf
+> [102] Galvanizers Association, "HDG Datasheet 10: Bimetallic Corrosion", 2024 (corrosión adicional del zinc en contacto con otros metales en ambiente atmosférico rural e industrial o urbano: aluminio, 0 y 0 a 1, nula o muy leve; acero inoxidable, 0 a 1; bronce, 0 a 1 y 1, con aislación recomendada para las aleaciones de cobre). https://wedge-galv.co.uk/wp-content/uploads/2024/10/10-Bimetallic-Corrosion-2024.pdf
 >
-> [106] igus, "drylin® trapezoidal lead screw, 1.4301 (304) stainless steel" (husillos de acero inoxidable 1.4301 de 8 a 24 mm de diámetro y pasos de 1,5 a 5 mm; los de una entrada son autoblocantes y los de dos entradas no). https://www.igus.com/product/918
+> [103] igus, "drylin® trapezoidal lead screw, 1.4301 (304) stainless steel" (husillos de acero inoxidable 1.4301 de 8 a 24 mm de diámetro y pasos de 1,5 a 5 mm; los de una entrada son autoblocantes y los de dos entradas no). https://www.igus.com/product/918
 >
-> [107] igus, "drylin® injection-molded lead screw nuts with flange, JFRM" (tuerca con brida de iglide® J para rosca trapecial). https://www.igus.com/product/14988
+> [104] igus, "drylin® injection-molded lead screw nuts with flange, JFRM" (tuerca con brida de iglide® J para rosca trapecial). https://www.igus.com/product/14988
 
   (Copiar las URL de seccion17.md tal cual; acá se quitaron las barras invertidas que el .md agrega antes de "_".)
 
 ### SECCIÓN 22 (ex 21, pendientes)
 
-**C55**
+**C58**
 - **Ubicación:** Ancla: «21. Información pendiente de relevar o definir (consolidado general)» (el título de la sección).
 - **Acción:** REEMPLAZAR
 - **Texto final:** 22. Información pendiente de relevar o definir (consolidado general)
 
-**C56**
+**C59**
 - **Ubicación:** Tabla de pendientes (queda como Tabla 38), fila que empieza con «| 6.1 | Longitud real de la manguera de conducción».
 - **Acción:** REEMPLAZAR la fila.
 - **Texto final:**
 
 | 6.1 / 8.1 | Longitud real de la manguera entre la válvula y la boquilla | Se usó 1 m como valor de trabajo; debe medir como máximo 1,15 m (Sección 8.1). | Verificar con el dibujo definitivo de la estación. |
 
-**C57**
+**C60**
 - **Ubicación:** Misma tabla, fila que empieza con «| 13.3 / 19 | Actualización del análisis estructural de la bancada».
 - **Acción:** REEMPLAZAR la fila.
 - **Texto final:**
 
 | 13.3 / 20 | Actualización del análisis estructural de la bancada | El análisis se hizo con pared de 0,035" (0,89 mm), menor que la adoptada (1,25 mm). Faltan además el material asignado, las cargas aplicadas (reacciones de las patas de la caja de soporte, Sección 17.8, y peso del cabezal de llenado sobre el tubo delantero, Sección 19), el voladizo de soporte de la tolva y los tres postes (Sección 18.1). | Repetir el análisis y la lista de cortes (Sección 13.3) con el perfil 25 × 25 × 1,25 mm, incluidos el voladizo y los postes de la tolva y el bastidor del cabezal. |
 
-**C58**
+**C61**
 - **Ubicación:** Misma tabla, fila que empieza con «| 14.5 | Altura de la entrada de succión del cilindro dosificador».
 - **Acción:** ELIMINAR la fila.
 
-**C59**
+**C62**
 - **Ubicación:** Misma tabla, **después** de la fila «| 1 / general | Sistema CIP completo y circuito neumático completo |».
 - **Acción:** AGREGAR 3 filas.
 - **Texto final:**
 
 | 2 / 3.3 | Referencia de la ficha técnica de los envases | Respalda las cotas de las Figuras 3 y 4 y el cubicaje de la Tabla 1. | Ficha del proveedor de los envases. |
-| 3.3 | Tamaño de las juntas tóricas de la boquilla | Las juntas de cara, la del obturador y las del vástago quedaron a definir (Tabla 4). | Selección con el catálogo Parker [18]. |
+| 3.3 | Tamaño de los *o-rings* de la boquilla | Los *o-rings* de cara, el del obturador y los del vástago quedaron a definir (Tabla 4). | Selección con el catálogo Parker [18]. |
 | 3.3 | Altura del domo del fondo de los envases | La altura h de la punta de la lanza se mide desde el punto más alto del domo, cuya altura no se midió. | Medición en los envases; mientras tanto, ajuste con la regulación de altura en la puesta en marcha (Sección 19.6). |
 
-**C60**
+**C63**
 - **Ubicación:** Misma tabla, **después** de la última fila («| 18.2 | Verificación de la pared de la tolva junto a las ménsulas |»).
 - **Acción:** AGREGAR fila.
 - **Texto final:**
@@ -958,7 +975,12 @@ Las referencias escritas a mano en el texto original que no se reemplaza ("Figur
 | Ra3v8 | 3 | 9 | Simple y doble efecto |
 | seccion17 | 51 | 10 | Tramos de pérdida de carga de la boquilla |
 | Ra3v8 | 4 | 11 | Tramos del circuito de inyección y perfil de presión |
-| Ra3v8 | 5 a 52 | 12 a 59 | Todas +7 (por ejemplo, Goodman de la caja 41 → 48; pata de la caja 43 → 50; soporte de la tolva 49 → 56) |
+| Ra3v8 | 5 | 13 | Tensión crítica de pandeo en función de la esbeltez (se corre por el cambio de 7.1) |
+| Ra3v8 | 6 | 12 | Columna de pandeo de los dos vástagos (se mueve en 7.1) |
+| Ra3v8 | 7 a 43 | 14 a 50 | Todas +7 (por ejemplo, Goodman de la caja 41 → 48; pata de la caja 43 → 50) |
+| Ra3v8 | 49 | 51 | Soporte de la tolva: ménsulas, postes y voladizo (se mueve al comienzo de 18.1) |
+| Ra3v8 | 44 a 48 | 52 a 56 | Ubicación de la ménsula, ménsula en ángulo, unión del poste, placa base y voladizo de la bancada |
+| Ra3v8 | 50 a 52 | 57 a 59 | Pandeo del poste, ala de la ménsula y placas del poste |
 | seccion17 | 45 | 60 | Cabezal sobre la bancada |
 | seccion17 | 46 | 61 | Secuencia de llenado |
 | seccion17 | 53 | 62 | Obturador |
@@ -1020,7 +1042,7 @@ Factuador / (CS × A) = 692 / (3 × 5.027) = 0,045886 MPa = 45.886 Pa. Lmáx = (
 - Conjunto móvil: 3,290 − 1,399 + 0,700 = **2,591 kg**; W = **25,4 N**.
 - Grupo de la boquilla: 2,591 − 0,700 − 0,084 = **1,807 kg → 17,7 N**.
 - Placa soporte de 6,35 mm: (190 × 80 − 2·π·11²) × 6,35 × 7,798 × 10⁻⁶ = **0,715 kg**. Se descuentan solo los agujeros de los bujes, porque no hay cotas de los agujeros del actuador ni de la tuerca; queda del lado seguro.
-- Actuador CDJ2X Ø16 × 150 con brida: 55 + 6,5 × 150/15 + 15 = **135 g**. Son los valores de la tabla de masas de la serie CJ2 Ø16 del catálogo [103] (ex [96]), porque las páginas de la CJ2X no traen tabla de masas (ver duda D3).
+- Actuador CDJ2X Ø16 × 150 con brida: 55 + 6,5 × 150/15 + 15 = **135 g**. Son los valores de la tabla de masas de la serie CJ2 Ø16 del catálogo [100] (la [96] de seccion17.md), porque las páginas de la CJ2X no traen tabla de masas (ver duda D3).
 - Cabezal regulado: 2,591 + 0,715 + 0,084 + 0,135 = **3,525 kg → 34,6 N**. Antes figuraba 49,0 N sin cálculo. Con las piezas de 12,70 mm, la misma suma da 4,94 kg (48,5 N), así que el 49,0 N anterior era probablemente este mismo conjunto con las chapas viejas.
 - No se incluyeron los reguladores, la tuerca JFRM, los detectores ni las mangueras de aire: no encontré sus masas en un catálogo citable. Un listado comercial de distribuidor da unos 7 g para un AS1201FM-M5, pero no pude abrir la página para verificarlo, así que no se usa.
 
@@ -1099,7 +1121,7 @@ En la columna σm conservé el formato del informe ("−27,0 → 0").
 1. Referencia de la ficha del proveedor de los envases (Tabla 1 y Sección 3.3, cambios C8 y C11).
 2. Imágenes de las filas nuevas de la Tabla 22 (adaptador R 1 × Tri-Clamp y cinta de PTFE).
 3. En la Tabla 37: cantidad y especificación de los tornillos M4 de los bujes y M5 de la brida, modelo del pulsador, largo del husillo, medida de las arandelas del husillo y material o modelo de la traba y de la regla. Quedan cubiertos por la fila nueva de pendientes de la Sección 19.9.
-4. Fuente del adaptador Tri-Clamp × espiga de 1¼” (la [69] es de 1”). Si la conseguís, se agrega como [108] en la fila correspondiente de la Tabla 22.
+4. Fuente del adaptador Tri-Clamp × espiga de 1¼” (la [66] es de 1”). Si la conseguís, se agrega como [105] en la fila correspondiente de la Tabla 22.
 
 ### Decisiones de esta versión (ya incluidas en los cambios)
 
@@ -1110,7 +1132,7 @@ En la columna σm conservé el formato del informe ("−27,0 → 0").
 - En 8.1, «verifican holgadamente» pasa a «verifican».
 - La cinta se presenta en una sola línea en la 19.1, como dato del diseño de la cinta, a cargo de otra etapa del proyecto.
 - El título de 15.3 pasa a ser "Uniones de la válvula de tres vías y de las mangueras".
-- El husillo usa el volante Elesa del ajuste de carrera, retenido con la arandela GN apoyada en la punta y un pequeño juego axial. Se elimina la fuente Halder, así que las nuevas quedan de la [93] a la [107].
+- El husillo usa el volante Elesa del ajuste de carrera, retenido con la arandela GN apoyada en la punta y un pequeño juego axial. Se elimina la fuente Halder, así que las nuevas quedan de la [90] a la [104].
 - Se eliminan las cuentas de vueltas del volante del husillo. En 16.3 se mantiene la frase de 10,05 ml por vuelta del tornillo de tope, porque el texto la usa para la corrección fina.
 - El actuador del carro es el CDJ2XF16-150-B. Los detectores se nombran "SMC D-M9", como en el resto del informe, sin datos eléctricos.
 
@@ -1126,9 +1148,9 @@ La única que trae un número es la de **14.5 → 17.9**, por los 75 mm entre la
 ### Problemas de estilo del informe original (no aplicados)
 
 1. **Juntas.** El informe usa *o-ring*, en cursiva, 29 veces, y la sección nueva dice "junta tórica" (Tabla 4, Tabla 37 y pendientes). Conviene unificar en *o-ring* en los textos nuevos.
-2. **Comillas de pulgada.** El informe usa ” (1”). En las fuentes [94] y [95] quedan comillas rectas (1"), copiadas del título del proveedor; se pueden dejar porque son citas textuales.
-3. **Fuentes [52] a [54].** No existen: la lista salta de [51] a [55]. Hay que verificar si se borraron a propósito. Para no renumerar, se puede dejar el salto, pero un evaluador lo va a notar.
-4. **Orden de citas de figuras en 18.1.** La primera mención es a la Figura 56 (ex 49), antes que a las 51 a 55. Word numera por posición, así que la primera figura citada no es la primera que aparece. Se puede cambiar la primera mención por "(Figuras 51 a 56)" o mover la figura del soporte completo al comienzo de 18.1.
+2. **Comillas de pulgada.** El informe usa ” (1”). En las fuentes [91] y [92] quedan comillas rectas (1"), copiadas del título del proveedor; se pueden dejar porque son citas textuales.
+3. **Fuentes [52] a [54].** Resuelto: se renumera la lista (cambio de la Sección 21).
+4. **Orden de las figuras.** Resuelto en 18.1 y también en 7.1, donde la columna de pandeo se citaba antes que la curva de Euler. Quedan dos casos menores en los que el título de la figura aparece antes de su primera cita: el Goodman de la caja (17.7) y las tres figuras de la bancada (20). Se pueden dejar.
 5. **"Fuente comercial."** Aparece en 13 fuentes, pero no en todas las que son comerciales (por ejemplo, [50] y [46]). Conviene aplicarlo a todas o a ninguna.
 6. **Sección 20.** Mantiene dos [completar] (material y cargas del modelo). Con el cabezal, la lista de cargas crece, así que conviene completarla junto con el análisis.
 7. **Párrafos largos.** Los de 5.1, 6.3, 7.1 y 14.2 superan las 6 líneas y mezclan justificación y resultado. Están en el estilo general del informe, así que no los tocaría salvo que quieras acortar.
